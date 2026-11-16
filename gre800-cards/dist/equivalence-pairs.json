@@ -1,0 +1,7519 @@
+{
+  "version": 1,
+  "title": "学而思GRE高频六选二等价1000词（2026版）",
+  "sourceUrl": "../../materials/vocabulary/%E5%AD%A6%E8%80%8C%E6%80%9DGRE%E9%AB%98%E9%A2%91%E5%85%AD%E9%80%89%E4%BA%8C%E7%AD%89%E4%BB%B71000%E8%AF%8D%EF%BC%882026%E7%89%88%EF%BC%89.pdf",
+  "sourcePages": 51,
+  "groupCount": 500,
+  "eligibleGroupCount": 497,
+  "wordOccurrences": 1000,
+  "uniqueTerms": 881,
+  "description": "原资料50个词表页，每页10组；保留原文词形、短语、释义及PDF页码。等价关系只按所列语境使用。",
+  "groups": [
+    {
+      "id": "eq-0001",
+      "page": 2,
+      "printedPage": 1,
+      "row": 1,
+      "meaning": "赞美",
+      "words": [
+        {
+          "word": "encomiums"
+        },
+        {
+          "word": "tributes"
+        }
+      ]
+    },
+    {
+      "id": "eq-0002",
+      "page": 2,
+      "printedPage": 1,
+      "row": 2,
+      "meaning": "削弱",
+      "words": [
+        {
+          "word": "hamstring"
+        },
+        {
+          "word": "impair"
+        }
+      ]
+    },
+    {
+      "id": "eq-0003",
+      "page": 2,
+      "printedPage": 1,
+      "row": 3,
+      "meaning": "微不足道",
+      "words": [
+        {
+          "word": "minimal"
+        },
+        {
+          "word": "trifling"
+        }
+      ]
+    },
+    {
+      "id": "eq-0004",
+      "page": 2,
+      "printedPage": 1,
+      "row": 4,
+      "meaning": "尖刻",
+      "words": [
+        {
+          "word": "acerbic"
+        },
+        {
+          "word": "vitriolic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0005",
+      "page": 2,
+      "printedPage": 1,
+      "row": 5,
+      "meaning": "推测的",
+      "words": [
+        {
+          "word": "speculative"
+        },
+        {
+          "word": "conjectural"
+        }
+      ]
+    },
+    {
+      "id": "eq-0006",
+      "page": 2,
+      "printedPage": 1,
+      "row": 6,
+      "meaning": "受阻",
+      "words": [
+        {
+          "word": "stymied"
+        },
+        {
+          "word": "neutralized"
+        }
+      ]
+    },
+    {
+      "id": "eq-0007",
+      "page": 2,
+      "printedPage": 1,
+      "row": 7,
+      "meaning": "阴郁",
+      "words": [
+        {
+          "word": "cheerless"
+        },
+        {
+          "word": "gloomy"
+        }
+      ]
+    },
+    {
+      "id": "eq-0008",
+      "page": 2,
+      "printedPage": 1,
+      "row": 8,
+      "meaning": "缺乏",
+      "words": [
+        {
+          "word": "scarcity"
+        },
+        {
+          "word": "want"
+        }
+      ]
+    },
+    {
+      "id": "eq-0009",
+      "page": 2,
+      "printedPage": 1,
+      "row": 9,
+      "meaning": "不可侵犯的",
+      "words": [
+        {
+          "word": "inviolable"
+        },
+        {
+          "word": "sacrosanct"
+        }
+      ]
+    },
+    {
+      "id": "eq-0010",
+      "page": 2,
+      "printedPage": 1,
+      "row": 10,
+      "meaning": "大量，丰富",
+      "words": [
+        {
+          "word": "wealth"
+        },
+        {
+          "word": "profusion"
+        }
+      ]
+    },
+    {
+      "id": "eq-0011",
+      "page": 3,
+      "printedPage": 2,
+      "row": 1,
+      "meaning": "秘密的",
+      "words": [
+        {
+          "word": "a clandestine"
+        },
+        {
+          "word": "a surreptitious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0012",
+      "page": 3,
+      "printedPage": 2,
+      "row": 2,
+      "meaning": "令人厌恶的",
+      "words": [
+        {
+          "word": "anathema to"
+        },
+        {
+          "word": "repellent to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0013",
+      "page": 3,
+      "printedPage": 2,
+      "row": 3,
+      "meaning": "琐碎无关紧要的事物",
+      "words": [
+        {
+          "word": "trivial"
+        },
+        {
+          "word": "ephemera"
+        }
+      ],
+      "needsReview": true,
+      "sourceNote": "原表印作 trivial，配套中文使用名词义；保留原词形，请结合原页核对。"
+    },
+    {
+      "id": "eq-0014",
+      "page": 3,
+      "printedPage": 2,
+      "row": 4,
+      "meaning": "不安",
+      "words": [
+        {
+          "word": "trepidation"
+        },
+        {
+          "word": "misgivings"
+        }
+      ]
+    },
+    {
+      "id": "eq-0015",
+      "page": 3,
+      "printedPage": 2,
+      "row": 5,
+      "meaning": "谦逊",
+      "words": [
+        {
+          "word": "unassuming"
+        },
+        {
+          "word": "modest"
+        }
+      ]
+    },
+    {
+      "id": "eq-0016",
+      "page": 3,
+      "printedPage": 2,
+      "row": 6,
+      "meaning": "显现",
+      "words": [
+        {
+          "word": "reveal"
+        },
+        {
+          "word": "manifest"
+        }
+      ]
+    },
+    {
+      "id": "eq-0017",
+      "page": 3,
+      "printedPage": 2,
+      "row": 7,
+      "meaning": "放弃",
+      "words": [
+        {
+          "word": "cede"
+        },
+        {
+          "word": "relinquish"
+        }
+      ]
+    },
+    {
+      "id": "eq-0018",
+      "page": 3,
+      "printedPage": 2,
+      "row": 8,
+      "meaning": "倾向，偏好",
+      "words": [
+        {
+          "word": "proclivity toward"
+        },
+        {
+          "word": "predilection for"
+        }
+      ]
+    },
+    {
+      "id": "eq-0019",
+      "page": 3,
+      "printedPage": 2,
+      "row": 9,
+      "meaning": "有洞察力的",
+      "words": [
+        {
+          "word": "perceptive"
+        },
+        {
+          "word": "discerning"
+        }
+      ]
+    },
+    {
+      "id": "eq-0020",
+      "page": 3,
+      "printedPage": 2,
+      "row": 10,
+      "meaning": "无私利他",
+      "words": [
+        {
+          "word": "altruism"
+        },
+        {
+          "word": "benevolence"
+        }
+      ]
+    },
+    {
+      "id": "eq-0021",
+      "page": 4,
+      "printedPage": 3,
+      "row": 1,
+      "meaning": "挪用",
+      "words": [
+        {
+          "word": "appropriate"
+        },
+        {
+          "word": "borrow"
+        }
+      ]
+    },
+    {
+      "id": "eq-0022",
+      "page": 4,
+      "printedPage": 3,
+      "row": 2,
+      "meaning": "避开",
+      "words": [
+        {
+          "word": "bypass"
+        },
+        {
+          "word": "circumvent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0023",
+      "page": 4,
+      "printedPage": 3,
+      "row": 3,
+      "meaning": "大量存在",
+      "words": [
+        {
+          "word": "proliferate"
+        },
+        {
+          "word": "abound"
+        }
+      ]
+    },
+    {
+      "id": "eq-0024",
+      "page": 4,
+      "printedPage": 3,
+      "row": 4,
+      "meaning": "抑制",
+      "words": [
+        {
+          "word": "checking"
+        },
+        {
+          "word": "stemming"
+        }
+      ]
+    },
+    {
+      "id": "eq-0025",
+      "page": 4,
+      "printedPage": 3,
+      "row": 5,
+      "meaning": "衰退",
+      "words": [
+        {
+          "word": "waning"
+        },
+        {
+          "word": "ebbing"
+        }
+      ]
+    },
+    {
+      "id": "eq-0026",
+      "page": 4,
+      "printedPage": 3,
+      "row": 6,
+      "meaning": "引起",
+      "words": [
+        {
+          "word": "engenders"
+        },
+        {
+          "word": "induces"
+        }
+      ]
+    },
+    {
+      "id": "eq-0027",
+      "page": 4,
+      "printedPage": 3,
+      "row": 7,
+      "meaning": "无活力的",
+      "words": [
+        {
+          "word": "inert"
+        },
+        {
+          "word": "passive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0028",
+      "page": 4,
+      "printedPage": 3,
+      "row": 8,
+      "meaning": "以……为基础",
+      "words": [
+        {
+          "word": "undergirded by"
+        },
+        {
+          "word": "dependent on"
+        }
+      ]
+    },
+    {
+      "id": "eq-0029",
+      "page": 4,
+      "printedPage": 3,
+      "row": 9,
+      "meaning": "严谨的",
+      "words": [
+        {
+          "word": "a rigorous"
+        },
+        {
+          "word": "a faithful"
+        }
+      ]
+    },
+    {
+      "id": "eq-0030",
+      "page": 4,
+      "printedPage": 3,
+      "row": 10,
+      "meaning": "灵活性",
+      "words": [
+        {
+          "word": "flexibility"
+        },
+        {
+          "word": "malleability"
+        }
+      ]
+    },
+    {
+      "id": "eq-0031",
+      "page": 5,
+      "printedPage": 4,
+      "row": 1,
+      "meaning": "无处不在",
+      "words": [
+        {
+          "word": "ubiquitous"
+        },
+        {
+          "word": "omnipresent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0032",
+      "page": 5,
+      "printedPage": 4,
+      "row": 2,
+      "meaning": "毫无根据",
+      "words": [
+        {
+          "word": "unfounded"
+        },
+        {
+          "word": "baseless"
+        }
+      ]
+    },
+    {
+      "id": "eq-0033",
+      "page": 5,
+      "printedPage": 4,
+      "row": 3,
+      "meaning": "必不可少的",
+      "words": [
+        {
+          "word": "essential for"
+        },
+        {
+          "word": "indispensable to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0034",
+      "page": 5,
+      "printedPage": 4,
+      "row": 4,
+      "meaning": "掩饰",
+      "words": [
+        {
+          "word": "belies"
+        },
+        {
+          "word": "masks"
+        }
+      ]
+    },
+    {
+      "id": "eq-0035",
+      "page": 5,
+      "printedPage": 4,
+      "row": 5,
+      "meaning": "不稳定的",
+      "words": [
+        {
+          "word": "fluid"
+        },
+        {
+          "word": "unstable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0036",
+      "page": 5,
+      "printedPage": 4,
+      "row": 6,
+      "meaning": "好斗的",
+      "words": [
+        {
+          "word": "truculent"
+        },
+        {
+          "word": "pugnacious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0037",
+      "page": 5,
+      "printedPage": 4,
+      "row": 7,
+      "meaning": "恭敬的",
+      "words": [
+        {
+          "word": "deferential"
+        },
+        {
+          "word": "respectful"
+        }
+      ]
+    },
+    {
+      "id": "eq-0038",
+      "page": 5,
+      "printedPage": 4,
+      "row": 8,
+      "meaning": "难以察觉的",
+      "words": [
+        {
+          "word": "imperceptible"
+        },
+        {
+          "word": "indiscernible"
+        }
+      ]
+    },
+    {
+      "id": "eq-0039",
+      "page": 5,
+      "printedPage": 4,
+      "row": 9,
+      "meaning": "对应物",
+      "words": [
+        {
+          "word": "counterpart"
+        },
+        {
+          "word": "correlative"
+        }
+      ]
+    },
+    {
+      "id": "eq-0040",
+      "page": 5,
+      "printedPage": 4,
+      "row": 10,
+      "meaning": "理性的",
+      "words": [
+        {
+          "word": "a cerebral"
+        },
+        {
+          "word": "a dispassionate"
+        }
+      ]
+    },
+    {
+      "id": "eq-0041",
+      "page": 6,
+      "printedPage": 5,
+      "row": 1,
+      "meaning": "细微的",
+      "words": [
+        {
+          "word": "nuanced"
+        },
+        {
+          "word": "subtle"
+        }
+      ]
+    },
+    {
+      "id": "eq-0042",
+      "page": 6,
+      "printedPage": 5,
+      "row": 2,
+      "meaning": "极度欢喜",
+      "words": [
+        {
+          "word": "euphoria"
+        },
+        {
+          "word": "jubilation"
+        }
+      ]
+    },
+    {
+      "id": "eq-0043",
+      "page": 6,
+      "printedPage": 5,
+      "row": 3,
+      "meaning": "有洞察力的",
+      "words": [
+        {
+          "word": "insightful"
+        },
+        {
+          "word": "discriminating"
+        }
+      ]
+    },
+    {
+      "id": "eq-0044",
+      "page": 6,
+      "printedPage": 5,
+      "row": 4,
+      "meaning": "简单朴素",
+      "words": [
+        {
+          "word": "basic"
+        },
+        {
+          "word": "crude"
+        }
+      ]
+    },
+    {
+      "id": "eq-0045",
+      "page": 6,
+      "printedPage": 5,
+      "row": 5,
+      "meaning": "独有的，典型的",
+      "words": [
+        {
+          "word": "unique to"
+        },
+        {
+          "word": "characteristic of"
+        }
+      ]
+    },
+    {
+      "id": "eq-0046",
+      "page": 6,
+      "printedPage": 5,
+      "row": 6,
+      "meaning": "极好的，令人惊叹的",
+      "words": [
+        {
+          "word": "fabulous"
+        },
+        {
+          "word": "legendary"
+        }
+      ]
+    },
+    {
+      "id": "eq-0047",
+      "page": 6,
+      "printedPage": 5,
+      "row": 7,
+      "meaning": "缓和的",
+      "words": [
+        {
+          "word": "tempered"
+        },
+        {
+          "word": "modulated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0048",
+      "page": 6,
+      "printedPage": 5,
+      "row": 8,
+      "meaning": "大杂烩",
+      "words": [
+        {
+          "word": "a hodgepodge"
+        },
+        {
+          "word": "a patchwork"
+        }
+      ]
+    },
+    {
+      "id": "eq-0049",
+      "page": 6,
+      "printedPage": 5,
+      "row": 9,
+      "meaning": "无害的",
+      "words": [
+        {
+          "word": "benign"
+        },
+        {
+          "word": "innocuous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0050",
+      "page": 6,
+      "printedPage": 5,
+      "row": 10,
+      "meaning": "全面的",
+      "words": [
+        {
+          "word": "encyclopedic"
+        },
+        {
+          "word": "exhaustive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0051",
+      "page": 7,
+      "printedPage": 6,
+      "row": 1,
+      "meaning": "无用",
+      "words": [
+        {
+          "word": "futility"
+        },
+        {
+          "word": "pointlessness"
+        }
+      ]
+    },
+    {
+      "id": "eq-0052",
+      "page": 7,
+      "printedPage": 6,
+      "row": 2,
+      "meaning": "新颖",
+      "words": [
+        {
+          "word": "novel"
+        },
+        {
+          "word": "original"
+        }
+      ]
+    },
+    {
+      "id": "eq-0053",
+      "page": 7,
+      "printedPage": 6,
+      "row": 3,
+      "meaning": "逐渐减少",
+      "words": [
+        {
+          "word": "dwindling"
+        },
+        {
+          "word": "contracting"
+        }
+      ]
+    },
+    {
+      "id": "eq-0054",
+      "page": 7,
+      "printedPage": 6,
+      "row": 4,
+      "meaning": "逐渐的，难以察觉的",
+      "words": [
+        {
+          "word": "gradual"
+        },
+        {
+          "word": "imperceptible"
+        }
+      ]
+    },
+    {
+      "id": "eq-0055",
+      "page": 7,
+      "printedPage": 6,
+      "row": 5,
+      "meaning": "短暂的休息",
+      "words": [
+        {
+          "word": "a respite from"
+        },
+        {
+          "word": "a break from"
+        }
+      ]
+    },
+    {
+      "id": "eq-0056",
+      "page": 7,
+      "printedPage": 6,
+      "row": 6,
+      "meaning": "被忽视的",
+      "words": [
+        {
+          "word": "neglected"
+        },
+        {
+          "word": "forsaken"
+        }
+      ]
+    },
+    {
+      "id": "eq-0057",
+      "page": 7,
+      "printedPage": 6,
+      "row": 7,
+      "meaning": "充满争议的",
+      "words": [
+        {
+          "word": "a contentious"
+        },
+        {
+          "word": "a fraught"
+        }
+      ]
+    },
+    {
+      "id": "eq-0058",
+      "page": 7,
+      "printedPage": 6,
+      "row": 8,
+      "meaning": "倾向",
+      "words": [
+        {
+          "word": "bias"
+        },
+        {
+          "word": "orientation"
+        }
+      ]
+    },
+    {
+      "id": "eq-0059",
+      "page": 7,
+      "printedPage": 6,
+      "row": 9,
+      "meaning": "草率的，敷衍的",
+      "words": [
+        {
+          "word": "cursory"
+        },
+        {
+          "word": "perfunctory"
+        }
+      ]
+    },
+    {
+      "id": "eq-0060",
+      "page": 7,
+      "printedPage": 6,
+      "row": 10,
+      "meaning": "脱离，分离",
+      "words": [
+        {
+          "word": "untethered from"
+        },
+        {
+          "word": "divorced from"
+        }
+      ]
+    },
+    {
+      "id": "eq-0061",
+      "page": 8,
+      "printedPage": 7,
+      "row": 1,
+      "meaning": "脱离",
+      "words": [
+        {
+          "word": "abstracted from"
+        },
+        {
+          "word": "divorced from"
+        }
+      ]
+    },
+    {
+      "id": "eq-0062",
+      "page": 8,
+      "printedPage": 7,
+      "row": 2,
+      "meaning": "普通的",
+      "words": [
+        {
+          "word": "average"
+        },
+        {
+          "word": "undistinguished"
+        }
+      ]
+    },
+    {
+      "id": "eq-0063",
+      "page": 8,
+      "printedPage": 7,
+      "row": 3,
+      "meaning": "赞扬",
+      "words": [
+        {
+          "word": "extolled"
+        },
+        {
+          "word": "acclaimed"
+        }
+      ]
+    },
+    {
+      "id": "eq-0064",
+      "page": 8,
+      "printedPage": 7,
+      "row": 4,
+      "meaning": "微不足道",
+      "words": [
+        {
+          "word": "imperceptible"
+        },
+        {
+          "word": "trivial"
+        }
+      ]
+    },
+    {
+      "id": "eq-0065",
+      "page": 8,
+      "printedPage": 7,
+      "row": 5,
+      "meaning": "笨拙",
+      "words": [
+        {
+          "word": "ineptitude at"
+        },
+        {
+          "word": "maladroitness in"
+        }
+      ]
+    },
+    {
+      "id": "eq-0066",
+      "page": 8,
+      "printedPage": 7,
+      "row": 6,
+      "meaning": "受挫的",
+      "words": [
+        {
+          "word": "thwarted"
+        },
+        {
+          "word": "frustrated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0067",
+      "page": 8,
+      "printedPage": 7,
+      "row": 7,
+      "meaning": "不自然的，生硬的",
+      "words": [
+        {
+          "word": "stilted"
+        },
+        {
+          "word": "wooden"
+        }
+      ]
+    },
+    {
+      "id": "eq-0068",
+      "page": 8,
+      "printedPage": 7,
+      "row": 8,
+      "meaning": "深奥难懂",
+      "words": [
+        {
+          "word": "occult"
+        },
+        {
+          "word": "arcane"
+        }
+      ]
+    },
+    {
+      "id": "eq-0069",
+      "page": 8,
+      "printedPage": 7,
+      "row": 9,
+      "meaning": "支持",
+      "words": [
+        {
+          "word": "buoyed"
+        },
+        {
+          "word": "sustained"
+        }
+      ]
+    },
+    {
+      "id": "eq-0070",
+      "page": 8,
+      "printedPage": 7,
+      "row": 10,
+      "meaning": "冗长",
+      "words": [
+        {
+          "word": "prolix"
+        },
+        {
+          "word": "verbose"
+        }
+      ]
+    },
+    {
+      "id": "eq-0071",
+      "page": 9,
+      "printedPage": 8,
+      "row": 1,
+      "meaning": "慷慨大方",
+      "words": [
+        {
+          "word": "unstinting"
+        },
+        {
+          "word": "generous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0072",
+      "page": 9,
+      "printedPage": 8,
+      "row": 2,
+      "meaning": "多种多样的",
+      "words": [
+        {
+          "word": "fundamentally miscellaneous"
+        },
+        {
+          "word": "thoroughly eclectic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0073",
+      "page": 9,
+      "printedPage": 8,
+      "row": 3,
+      "meaning": "全面的",
+      "words": [
+        {
+          "word": "thorough"
+        },
+        {
+          "word": "exhaustive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0074",
+      "page": 9,
+      "printedPage": 8,
+      "row": 4,
+      "meaning": "狭隘",
+      "words": [
+        {
+          "word": "insular"
+        },
+        {
+          "word": "parochial"
+        }
+      ]
+    },
+    {
+      "id": "eq-0075",
+      "page": 9,
+      "printedPage": 8,
+      "row": 5,
+      "meaning": "贬低",
+      "words": [
+        {
+          "word": "disparaged"
+        },
+        {
+          "word": "dismissed"
+        }
+      ]
+    },
+    {
+      "id": "eq-0076",
+      "page": 9,
+      "printedPage": 8,
+      "row": 6,
+      "meaning": "缺乏",
+      "words": [
+        {
+          "word": "paucity"
+        },
+        {
+          "word": "dearth"
+        }
+      ]
+    },
+    {
+      "id": "eq-0077",
+      "page": 9,
+      "printedPage": 8,
+      "row": 7,
+      "meaning": "支持",
+      "words": [
+        {
+          "word": "Bolstering"
+        },
+        {
+          "word": "Buttressing"
+        }
+      ]
+    },
+    {
+      "id": "eq-0078",
+      "page": 9,
+      "printedPage": 8,
+      "row": 8,
+      "meaning": "短暂的平静或休息",
+      "words": [
+        {
+          "word": "lull"
+        },
+        {
+          "word": "respite"
+        }
+      ]
+    },
+    {
+      "id": "eq-0079",
+      "page": 9,
+      "printedPage": 8,
+      "row": 9,
+      "meaning": "偏好",
+      "words": [
+        {
+          "word": "predilection"
+        },
+        {
+          "word": "proclivity"
+        }
+      ]
+    },
+    {
+      "id": "eq-0080",
+      "page": 9,
+      "printedPage": 8,
+      "row": 10,
+      "meaning": "顽固的",
+      "words": [
+        {
+          "word": "stubborn"
+        },
+        {
+          "word": "intractable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0081",
+      "page": 10,
+      "printedPage": 9,
+      "row": 1,
+      "meaning": "熟悉的",
+      "words": [
+        {
+          "word": "familiar"
+        },
+        {
+          "word": "recognizable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0082",
+      "page": 10,
+      "printedPage": 9,
+      "row": 2,
+      "meaning": "不一致的",
+      "words": [
+        {
+          "word": "mixed"
+        },
+        {
+          "word": "inconsistent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0083",
+      "page": 10,
+      "printedPage": 9,
+      "row": 3,
+      "meaning": "承认",
+      "words": [
+        {
+          "word": "conceded"
+        },
+        {
+          "word": "acknowledged"
+        }
+      ]
+    },
+    {
+      "id": "eq-0084",
+      "page": 10,
+      "printedPage": 9,
+      "row": 4,
+      "meaning": "掩饰",
+      "words": [
+        {
+          "word": "belie"
+        },
+        {
+          "word": "mask"
+        }
+      ]
+    },
+    {
+      "id": "eq-0085",
+      "page": 10,
+      "printedPage": 9,
+      "row": 5,
+      "meaning": "笨拙的",
+      "words": [
+        {
+          "word": "awkward"
+        },
+        {
+          "word": "ungainly"
+        }
+      ]
+    },
+    {
+      "id": "eq-0086",
+      "page": 10,
+      "printedPage": 9,
+      "row": 6,
+      "meaning": "纯粹的",
+      "words": [
+        {
+          "word": "unalloyed"
+        },
+        {
+          "word": "unqualified"
+        }
+      ]
+    },
+    {
+      "id": "eq-0087",
+      "page": 10,
+      "printedPage": 9,
+      "row": 7,
+      "meaning": "不一致",
+      "words": [
+        {
+          "word": "discordance"
+        },
+        {
+          "word": "contention"
+        }
+      ]
+    },
+    {
+      "id": "eq-0088",
+      "page": 10,
+      "printedPage": 9,
+      "row": 8,
+      "meaning": "不重要的",
+      "words": [
+        {
+          "word": "immaterial"
+        },
+        {
+          "word": "inconsequential"
+        }
+      ]
+    },
+    {
+      "id": "eq-0089",
+      "page": 10,
+      "printedPage": 9,
+      "row": 9,
+      "meaning": "严厉批评",
+      "words": [
+        {
+          "word": "denounces"
+        },
+        {
+          "word": "lambasts"
+        }
+      ]
+    },
+    {
+      "id": "eq-0090",
+      "page": 10,
+      "printedPage": 9,
+      "row": 10,
+      "meaning": "嘲笑",
+      "words": [
+        {
+          "word": "derision"
+        },
+        {
+          "word": "ridicule"
+        }
+      ]
+    },
+    {
+      "id": "eq-0091",
+      "page": 11,
+      "printedPage": 10,
+      "row": 1,
+      "meaning": "不起眼的",
+      "words": [
+        {
+          "word": "unprepossessing"
+        },
+        {
+          "word": "unremarkable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0092",
+      "page": 11,
+      "printedPage": 10,
+      "row": 2,
+      "meaning": "加剧",
+      "words": [
+        {
+          "word": "exacerbated"
+        },
+        {
+          "word": "aggravated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0093",
+      "page": 11,
+      "printedPage": 10,
+      "row": 3,
+      "meaning": "肤浅的",
+      "words": [
+        {
+          "word": "superficial"
+        },
+        {
+          "word": "sketchy"
+        }
+      ]
+    },
+    {
+      "id": "eq-0094",
+      "page": 11,
+      "printedPage": 10,
+      "row": 4,
+      "meaning": "尖刻的",
+      "words": [
+        {
+          "word": "an acerbic"
+        },
+        {
+          "word": "a harsh"
+        }
+      ]
+    },
+    {
+      "id": "eq-0095",
+      "page": 11,
+      "printedPage": 10,
+      "row": 5,
+      "meaning": "决心",
+      "words": [
+        {
+          "word": "determination"
+        },
+        {
+          "word": "resolve"
+        }
+      ]
+    },
+    {
+      "id": "eq-0096",
+      "page": 11,
+      "printedPage": 10,
+      "row": 6,
+      "meaning": "辉煌",
+      "words": [
+        {
+          "word": "splendor"
+        },
+        {
+          "word": "brilliance"
+        }
+      ]
+    },
+    {
+      "id": "eq-0097",
+      "page": 11,
+      "printedPage": 10,
+      "row": 7,
+      "meaning": "令人厌恶的",
+      "words": [
+        {
+          "word": "anathema to"
+        },
+        {
+          "word": "repellent to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0098",
+      "page": 11,
+      "printedPage": 10,
+      "row": 8,
+      "meaning": "无处不在，普遍存在",
+      "words": [
+        {
+          "word": "ubiquitous"
+        },
+        {
+          "word": "prevalent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0099",
+      "page": 11,
+      "printedPage": 10,
+      "row": 9,
+      "meaning": "平等的",
+      "words": [
+        {
+          "word": "democratic"
+        },
+        {
+          "word": "egalitarian"
+        }
+      ]
+    },
+    {
+      "id": "eq-0100",
+      "page": 11,
+      "printedPage": 10,
+      "row": 10,
+      "meaning": "可塑的",
+      "words": [
+        {
+          "word": "malleable"
+        },
+        {
+          "word": "plastic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0101",
+      "page": 12,
+      "printedPage": 11,
+      "row": 1,
+      "meaning": "特立独行者",
+      "words": [
+        {
+          "word": "maverick"
+        },
+        {
+          "word": "nonconformist"
+        }
+      ]
+    },
+    {
+      "id": "eq-0102",
+      "page": 12,
+      "printedPage": 11,
+      "row": 2,
+      "meaning": "不诚实",
+      "words": [
+        {
+          "word": "unscrupulous"
+        },
+        {
+          "word": "dishonest"
+        }
+      ]
+    },
+    {
+      "id": "eq-0103",
+      "page": 12,
+      "printedPage": 11,
+      "row": 3,
+      "meaning": "愤世嫉俗的",
+      "words": [
+        {
+          "word": "cynical"
+        },
+        {
+          "word": "jaded"
+        }
+      ]
+    },
+    {
+      "id": "eq-0104",
+      "page": 12,
+      "printedPage": 11,
+      "row": 4,
+      "meaning": "赞同的",
+      "words": [
+        {
+          "word": "sympathetic"
+        },
+        {
+          "word": "well-disposed"
+        }
+      ]
+    },
+    {
+      "id": "eq-0105",
+      "page": 12,
+      "printedPage": 11,
+      "row": 5,
+      "meaning": "不确定的",
+      "words": [
+        {
+          "word": "precarious"
+        },
+        {
+          "word": "uncertain"
+        }
+      ]
+    },
+    {
+      "id": "eq-0106",
+      "page": 12,
+      "printedPage": 11,
+      "row": 6,
+      "meaning": "交织在一起",
+      "words": [
+        {
+          "word": "interwoven"
+        },
+        {
+          "word": "integrated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0107",
+      "page": 12,
+      "printedPage": 11,
+      "row": 7,
+      "meaning": "有偏见的",
+      "words": [
+        {
+          "word": "prejudicial"
+        },
+        {
+          "word": "tendentious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0108",
+      "page": 12,
+      "printedPage": 11,
+      "row": 8,
+      "meaning": "难以捉摸",
+      "words": [
+        {
+          "word": "slippery"
+        },
+        {
+          "word": "elusive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0109",
+      "page": 12,
+      "printedPage": 11,
+      "row": 9,
+      "meaning": "滋补的",
+      "words": [
+        {
+          "word": "restorative"
+        },
+        {
+          "word": "tonic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0110",
+      "page": 12,
+      "printedPage": 11,
+      "row": 10,
+      "meaning": "详尽的",
+      "words": [
+        {
+          "word": "exhaustive"
+        },
+        {
+          "word": "comprehensive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0111",
+      "page": 13,
+      "printedPage": 12,
+      "row": 1,
+      "meaning": "产生",
+      "words": [
+        {
+          "word": "yield"
+        },
+        {
+          "word": "engender"
+        }
+      ]
+    },
+    {
+      "id": "eq-0112",
+      "page": 13,
+      "printedPage": 12,
+      "row": 2,
+      "meaning": "健壮",
+      "words": [
+        {
+          "word": "robust"
+        },
+        {
+          "word": "strong"
+        }
+      ]
+    },
+    {
+      "id": "eq-0113",
+      "page": 13,
+      "printedPage": 12,
+      "row": 3,
+      "meaning": "坚持不懈",
+      "words": [
+        {
+          "word": "persistence"
+        },
+        {
+          "word": "survival"
+        }
+      ]
+    },
+    {
+      "id": "eq-0114",
+      "page": 13,
+      "printedPage": 12,
+      "row": 4,
+      "meaning": "可理解的",
+      "words": [
+        {
+          "word": "intelligible"
+        },
+        {
+          "word": "readable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0115",
+      "page": 13,
+      "printedPage": 12,
+      "row": 5,
+      "meaning": "误用",
+      "words": [
+        {
+          "word": "abused"
+        },
+        {
+          "word": "misused"
+        }
+      ]
+    },
+    {
+      "id": "eq-0116",
+      "page": 13,
+      "printedPage": 12,
+      "row": 6,
+      "meaning": "不足",
+      "words": [
+        {
+          "word": "insufficient"
+        },
+        {
+          "word": "meager"
+        }
+      ]
+    },
+    {
+      "id": "eq-0117",
+      "page": 13,
+      "printedPage": 12,
+      "row": 7,
+      "meaning": "嘲笑",
+      "words": [
+        {
+          "word": "mockery"
+        },
+        {
+          "word": "derision"
+        }
+      ]
+    },
+    {
+      "id": "eq-0118",
+      "page": 13,
+      "printedPage": 12,
+      "row": 8,
+      "meaning": "不出名的",
+      "words": [
+        {
+          "word": "anonymous"
+        },
+        {
+          "word": "obscure"
+        }
+      ]
+    },
+    {
+      "id": "eq-0119",
+      "page": 13,
+      "printedPage": 12,
+      "row": 9,
+      "meaning": "虚假的",
+      "words": [
+        {
+          "word": "feigned"
+        },
+        {
+          "word": "false"
+        }
+      ]
+    },
+    {
+      "id": "eq-0120",
+      "page": 13,
+      "printedPage": 12,
+      "row": 10,
+      "meaning": "分层的",
+      "words": [
+        {
+          "word": "a hierarchical"
+        },
+        {
+          "word": "a stratified"
+        }
+      ]
+    },
+    {
+      "id": "eq-0121",
+      "page": 14,
+      "printedPage": 13,
+      "row": 1,
+      "meaning": "一丝不苟",
+      "words": [
+        {
+          "word": "meticulous"
+        },
+        {
+          "word": "thorough"
+        }
+      ]
+    },
+    {
+      "id": "eq-0122",
+      "page": 14,
+      "printedPage": 13,
+      "row": 2,
+      "meaning": "有目的性",
+      "words": [
+        {
+          "word": "purposefulness"
+        },
+        {
+          "word": "design"
+        }
+      ]
+    },
+    {
+      "id": "eq-0123",
+      "page": 14,
+      "printedPage": 13,
+      "row": 3,
+      "meaning": "支持",
+      "words": [
+        {
+          "word": "underwritten"
+        },
+        {
+          "word": "endorsed"
+        }
+      ]
+    },
+    {
+      "id": "eq-0124",
+      "page": 14,
+      "printedPage": 13,
+      "row": 4,
+      "meaning": "四处游历的",
+      "words": [
+        {
+          "word": "an itinerant"
+        },
+        {
+          "word": "a peripatetic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0125",
+      "page": 14,
+      "printedPage": 13,
+      "row": 5,
+      "meaning": "虚假的",
+      "words": [
+        {
+          "word": "spurious"
+        },
+        {
+          "word": "specious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0126",
+      "page": 14,
+      "printedPage": 13,
+      "row": 6,
+      "meaning": "冷静客观地",
+      "words": [
+        {
+          "word": "dispassionately"
+        },
+        {
+          "word": "analytically"
+        }
+      ]
+    },
+    {
+      "id": "eq-0127",
+      "page": 14,
+      "printedPage": 13,
+      "row": 7,
+      "meaning": "显眼",
+      "words": [
+        {
+          "word": "obtrusive"
+        },
+        {
+          "word": "conspicuous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0128",
+      "page": 14,
+      "printedPage": 13,
+      "row": 8,
+      "meaning": "可靠的",
+      "words": [
+        {
+          "word": "sound"
+        },
+        {
+          "word": "unassailable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0129",
+      "page": 14,
+      "printedPage": 13,
+      "row": 9,
+      "meaning": "适时的",
+      "words": [
+        {
+          "word": "timely"
+        },
+        {
+          "word": "opportune"
+        }
+      ]
+    },
+    {
+      "id": "eq-0130",
+      "page": 14,
+      "printedPage": 13,
+      "row": 10,
+      "meaning": "排除，取代",
+      "words": [
+        {
+          "word": "obviate"
+        },
+        {
+          "word": "displace"
+        }
+      ]
+    },
+    {
+      "id": "eq-0131",
+      "page": 15,
+      "printedPage": 14,
+      "row": 1,
+      "meaning": "称赞",
+      "words": [
+        {
+          "word": "applauded"
+        },
+        {
+          "word": "extolled"
+        }
+      ]
+    },
+    {
+      "id": "eq-0132",
+      "page": 15,
+      "printedPage": 14,
+      "row": 2,
+      "meaning": "优柔寡断",
+      "words": [
+        {
+          "word": "irresolution"
+        },
+        {
+          "word": "vacillation"
+        }
+      ]
+    },
+    {
+      "id": "eq-0133",
+      "page": 15,
+      "printedPage": 14,
+      "row": 3,
+      "meaning": "责备",
+      "words": [
+        {
+          "word": "scolding"
+        },
+        {
+          "word": "admonishment"
+        }
+      ]
+    },
+    {
+      "id": "eq-0134",
+      "page": 15,
+      "printedPage": 14,
+      "row": 4,
+      "meaning": "洞察力",
+      "words": [
+        {
+          "word": "perspicacity"
+        },
+        {
+          "word": "discernment"
+        }
+      ]
+    },
+    {
+      "id": "eq-0135",
+      "page": 15,
+      "printedPage": 14,
+      "row": 5,
+      "meaning": "否认",
+      "words": [
+        {
+          "word": "contradict"
+        },
+        {
+          "word": "gainsay"
+        }
+      ]
+    },
+    {
+      "id": "eq-0136",
+      "page": 15,
+      "printedPage": 14,
+      "row": 6,
+      "meaning": "惰性",
+      "words": [
+        {
+          "word": "inertia"
+        },
+        {
+          "word": "stasis"
+        }
+      ]
+    },
+    {
+      "id": "eq-0137",
+      "page": 15,
+      "printedPage": 14,
+      "row": 7,
+      "meaning": "寻找",
+      "words": [
+        {
+          "word": "extract"
+        },
+        {
+          "word": "ferret out"
+        }
+      ]
+    },
+    {
+      "id": "eq-0138",
+      "page": 15,
+      "printedPage": 14,
+      "row": 8,
+      "meaning": "反复无常",
+      "words": [
+        {
+          "word": "capriciousness"
+        },
+        {
+          "word": "volatility"
+        }
+      ]
+    },
+    {
+      "id": "eq-0139",
+      "page": 15,
+      "printedPage": 14,
+      "row": 9,
+      "meaning": "避开",
+      "words": [
+        {
+          "word": "skirt"
+        },
+        {
+          "word": "circumvent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0140",
+      "page": 15,
+      "printedPage": 14,
+      "row": 10,
+      "meaning": "蔑视",
+      "words": [
+        {
+          "word": "opprobrium"
+        },
+        {
+          "word": "disdain"
+        }
+      ]
+    },
+    {
+      "id": "eq-0141",
+      "page": 16,
+      "printedPage": 15,
+      "row": 1,
+      "meaning": "提出",
+      "words": [
+        {
+          "word": "broached"
+        },
+        {
+          "word": "proposed"
+        }
+      ]
+    },
+    {
+      "id": "eq-0142",
+      "page": 16,
+      "printedPage": 15,
+      "row": 2,
+      "meaning": "与……不相容",
+      "words": [
+        {
+          "word": "antipathetic to"
+        },
+        {
+          "word": "inconsistent with"
+        }
+      ]
+    },
+    {
+      "id": "eq-0143",
+      "page": 16,
+      "printedPage": 15,
+      "row": 3,
+      "meaning": "严厉批评",
+      "words": [
+        {
+          "word": "lambasted"
+        },
+        {
+          "word": "excoriated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0144",
+      "page": 16,
+      "printedPage": 15,
+      "row": 4,
+      "meaning": "本土的",
+      "words": [
+        {
+          "word": "homegrown"
+        },
+        {
+          "word": "indigenous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0145",
+      "page": 16,
+      "printedPage": 15,
+      "row": 5,
+      "meaning": "前所未有的",
+      "words": [
+        {
+          "word": "unprecedented"
+        },
+        {
+          "word": "novel"
+        }
+      ]
+    },
+    {
+      "id": "eq-0146",
+      "page": 16,
+      "printedPage": 15,
+      "row": 6,
+      "meaning": "补充的",
+      "words": [
+        {
+          "word": "a supplemental"
+        },
+        {
+          "word": "a complementary"
+        }
+      ]
+    },
+    {
+      "id": "eq-0147",
+      "page": 16,
+      "printedPage": 15,
+      "row": 7,
+      "meaning": "普通的",
+      "words": [
+        {
+          "word": "unexceptional"
+        },
+        {
+          "word": "commonplace"
+        }
+      ]
+    },
+    {
+      "id": "eq-0148",
+      "page": 16,
+      "printedPage": 15,
+      "row": 8,
+      "meaning": "界限",
+      "words": [
+        {
+          "word": "demarcation of"
+        },
+        {
+          "word": "lines between"
+        }
+      ]
+    },
+    {
+      "id": "eq-0149",
+      "page": 16,
+      "printedPage": 15,
+      "row": 9,
+      "meaning": "异想天开的",
+      "words": [
+        {
+          "word": "fanciful"
+        },
+        {
+          "word": "chimerical"
+        }
+      ]
+    },
+    {
+      "id": "eq-0150",
+      "page": 16,
+      "printedPage": 15,
+      "row": 10,
+      "meaning": "本质的，内在的",
+      "words": [
+        {
+          "word": "intrinsic to"
+        },
+        {
+          "word": "inextricable from"
+        }
+      ]
+    },
+    {
+      "id": "eq-0151",
+      "page": 17,
+      "printedPage": 16,
+      "row": 1,
+      "meaning": "着迷于",
+      "words": [
+        {
+          "word": "enthralled by"
+        },
+        {
+          "word": "dazzled by"
+        }
+      ]
+    },
+    {
+      "id": "eq-0152",
+      "page": 17,
+      "printedPage": 16,
+      "row": 2,
+      "meaning": "站不住脚的",
+      "words": [
+        {
+          "word": "untenable"
+        },
+        {
+          "word": "indefensible"
+        }
+      ]
+    },
+    {
+      "id": "eq-0153",
+      "page": 17,
+      "printedPage": 16,
+      "row": 3,
+      "meaning": "易受影响的，适应性强的",
+      "words": [
+        {
+          "word": "plastic"
+        },
+        {
+          "word": "pliable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0154",
+      "page": 17,
+      "printedPage": 16,
+      "row": 4,
+      "meaning": "取代",
+      "words": [
+        {
+          "word": "supplant"
+        },
+        {
+          "word": "supersede"
+        }
+      ]
+    },
+    {
+      "id": "eq-0155",
+      "page": 17,
+      "printedPage": 16,
+      "row": 5,
+      "meaning": "孤立封闭",
+      "words": [
+        {
+          "word": "private"
+        },
+        {
+          "word": "insular"
+        }
+      ]
+    },
+    {
+      "id": "eq-0156",
+      "page": 17,
+      "printedPage": 16,
+      "row": 6,
+      "meaning": "连贯有序",
+      "words": [
+        {
+          "word": "a coherent"
+        },
+        {
+          "word": "an orderly"
+        }
+      ]
+    },
+    {
+      "id": "eq-0157",
+      "page": 17,
+      "printedPage": 16,
+      "row": 7,
+      "meaning": "不言自明",
+      "words": [
+        {
+          "word": "manifest"
+        },
+        {
+          "word": "self-evident"
+        }
+      ]
+    },
+    {
+      "id": "eq-0158",
+      "page": 17,
+      "printedPage": 16,
+      "row": 8,
+      "meaning": "易怒",
+      "words": [
+        {
+          "word": "irascibility"
+        },
+        {
+          "word": "exasperation"
+        }
+      ]
+    },
+    {
+      "id": "eq-0159",
+      "page": 17,
+      "printedPage": 16,
+      "row": 9,
+      "meaning": "危险的",
+      "words": [
+        {
+          "word": "precarious"
+        },
+        {
+          "word": "perilous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0160",
+      "page": 17,
+      "printedPage": 16,
+      "row": 10,
+      "meaning": "增加",
+      "words": [
+        {
+          "word": "augment"
+        },
+        {
+          "word": "extend"
+        }
+      ]
+    },
+    {
+      "id": "eq-0161",
+      "page": 18,
+      "printedPage": 17,
+      "row": 1,
+      "meaning": "粗略的",
+      "words": [
+        {
+          "word": "rudimentary"
+        },
+        {
+          "word": "sketchy"
+        }
+      ]
+    },
+    {
+      "id": "eq-0162",
+      "page": 18,
+      "printedPage": 17,
+      "row": 2,
+      "meaning": "被发现",
+      "words": [
+        {
+          "word": "discerned by"
+        },
+        {
+          "word": "discovered by"
+        }
+      ]
+    },
+    {
+      "id": "eq-0163",
+      "page": 18,
+      "printedPage": 17,
+      "row": 3,
+      "meaning": "根除",
+      "words": [
+        {
+          "word": "extirpated"
+        },
+        {
+          "word": "eliminated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0164",
+      "page": 18,
+      "printedPage": 17,
+      "row": 4,
+      "meaning": "预示",
+      "words": [
+        {
+          "word": "anticipates"
+        },
+        {
+          "word": "prefigures"
+        }
+      ]
+    },
+    {
+      "id": "eq-0165",
+      "page": 18,
+      "printedPage": 17,
+      "row": 5,
+      "meaning": "无可指责",
+      "words": [
+        {
+          "word": "unimpeachable"
+        },
+        {
+          "word": "blameless"
+        }
+      ]
+    },
+    {
+      "id": "eq-0166",
+      "page": 18,
+      "printedPage": 17,
+      "row": 6,
+      "meaning": "显著性",
+      "words": [
+        {
+          "word": "prominence"
+        },
+        {
+          "word": "salience"
+        }
+      ]
+    },
+    {
+      "id": "eq-0167",
+      "page": 18,
+      "printedPage": 17,
+      "row": 7,
+      "meaning": "让与",
+      "words": [
+        {
+          "word": "left to"
+        },
+        {
+          "word": "ceded to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0168",
+      "page": 18,
+      "printedPage": 17,
+      "row": 8,
+      "meaning": "无瑕疵，完美无缺",
+      "words": [
+        {
+          "word": "faultlessness"
+        },
+        {
+          "word": "perfection"
+        }
+      ]
+    },
+    {
+      "id": "eq-0169",
+      "page": 18,
+      "printedPage": 17,
+      "row": 9,
+      "meaning": "使困惑",
+      "words": [
+        {
+          "word": "confound"
+        },
+        {
+          "word": "perplex"
+        }
+      ]
+    },
+    {
+      "id": "eq-0170",
+      "page": 18,
+      "printedPage": 17,
+      "row": 10,
+      "meaning": "与……一致",
+      "words": [
+        {
+          "word": "conform to"
+        },
+        {
+          "word": "square with"
+        }
+      ]
+    },
+    {
+      "id": "eq-0171",
+      "page": 19,
+      "printedPage": 18,
+      "row": 1,
+      "meaning": "复杂精细",
+      "words": [
+        {
+          "word": "intricate"
+        },
+        {
+          "word": "convoluted"
+        }
+      ]
+    },
+    {
+      "id": "eq-0172",
+      "page": 19,
+      "printedPage": 18,
+      "row": 2,
+      "meaning": "容忍",
+      "words": [
+        {
+          "word": "brook"
+        },
+        {
+          "word": "tolerate"
+        }
+      ]
+    },
+    {
+      "id": "eq-0173",
+      "page": 19,
+      "printedPage": 18,
+      "row": 3,
+      "meaning": "减弱",
+      "words": [
+        {
+          "word": "attenuating"
+        },
+        {
+          "word": "dissipating"
+        }
+      ]
+    },
+    {
+      "id": "eq-0174",
+      "page": 19,
+      "printedPage": 18,
+      "row": 4,
+      "meaning": "衰老",
+      "words": [
+        {
+          "word": "senescence"
+        },
+        {
+          "word": "decrepitude"
+        }
+      ]
+    },
+    {
+      "id": "eq-0175",
+      "page": 19,
+      "printedPage": 18,
+      "row": 5,
+      "meaning": "不受限制",
+      "words": [
+        {
+          "word": "unconstrained"
+        },
+        {
+          "word": "free"
+        }
+      ]
+    },
+    {
+      "id": "eq-0176",
+      "page": 19,
+      "printedPage": 18,
+      "row": 6,
+      "meaning": "令人渴望的",
+      "words": [
+        {
+          "word": "a coveted"
+        },
+        {
+          "word": "an enviable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0177",
+      "page": 19,
+      "printedPage": 18,
+      "row": 7,
+      "meaning": "微不足道",
+      "words": [
+        {
+          "word": "meager"
+        },
+        {
+          "word": "paltry"
+        }
+      ]
+    },
+    {
+      "id": "eq-0178",
+      "page": 19,
+      "printedPage": 18,
+      "row": 8,
+      "meaning": "剧变",
+      "words": [
+        {
+          "word": "upheaval"
+        },
+        {
+          "word": "convulsion"
+        }
+      ]
+    },
+    {
+      "id": "eq-0179",
+      "page": 19,
+      "printedPage": 18,
+      "row": 9,
+      "meaning": "一个难题",
+      "words": [
+        {
+          "word": "a puzzle"
+        },
+        {
+          "word": "a conundrum"
+        }
+      ]
+    },
+    {
+      "id": "eq-0180",
+      "page": 19,
+      "printedPage": 18,
+      "row": 10,
+      "meaning": "克制的",
+      "words": [
+        {
+          "word": "temperate"
+        },
+        {
+          "word": "dispassionate"
+        }
+      ]
+    },
+    {
+      "id": "eq-0181",
+      "page": 20,
+      "printedPage": 19,
+      "row": 1,
+      "meaning": "精炼完善",
+      "words": [
+        {
+          "word": "honed"
+        },
+        {
+          "word": "enhanced"
+        }
+      ]
+    },
+    {
+      "id": "eq-0182",
+      "page": 20,
+      "printedPage": 19,
+      "row": 2,
+      "meaning": "刻意避开",
+      "words": [
+        {
+          "word": "shunning"
+        },
+        {
+          "word": "eschewing"
+        }
+      ]
+    },
+    {
+      "id": "eq-0183",
+      "page": 20,
+      "printedPage": 19,
+      "row": 3,
+      "meaning": "修订",
+      "words": [
+        {
+          "word": "emendation"
+        },
+        {
+          "word": "revision"
+        }
+      ]
+    },
+    {
+      "id": "eq-0184",
+      "page": 20,
+      "printedPage": 19,
+      "row": 4,
+      "meaning": "任性的",
+      "words": [
+        {
+          "word": "wayward"
+        },
+        {
+          "word": "errant"
+        }
+      ]
+    },
+    {
+      "id": "eq-0185",
+      "page": 20,
+      "printedPage": 19,
+      "row": 5,
+      "meaning": "平凡无奇",
+      "words": [
+        {
+          "word": "unexceptional"
+        },
+        {
+          "word": "nondescript"
+        }
+      ]
+    },
+    {
+      "id": "eq-0186",
+      "page": 20,
+      "printedPage": 19,
+      "row": 6,
+      "meaning": "等同于",
+      "words": [
+        {
+          "word": "tantamount to"
+        },
+        {
+          "word": "synonymous with"
+        }
+      ]
+    },
+    {
+      "id": "eq-0187",
+      "page": 20,
+      "printedPage": 19,
+      "row": 7,
+      "meaning": "冗长哕嗦",
+      "words": [
+        {
+          "word": "verbose"
+        },
+        {
+          "word": "long-winded"
+        }
+      ]
+    },
+    {
+      "id": "eq-0188",
+      "page": 20,
+      "printedPage": 19,
+      "row": 8,
+      "meaning": "一丝不苟",
+      "words": [
+        {
+          "word": "painstakingly"
+        },
+        {
+          "word": "meticulously"
+        }
+      ]
+    },
+    {
+      "id": "eq-0189",
+      "page": 20,
+      "printedPage": 19,
+      "row": 9,
+      "meaning": "精明",
+      "words": [
+        {
+          "word": "shrewd"
+        },
+        {
+          "word": "canny"
+        }
+      ]
+    },
+    {
+      "id": "eq-0190",
+      "page": 20,
+      "printedPage": 19,
+      "row": 10,
+      "meaning": "起源",
+      "words": [
+        {
+          "word": "pedigree"
+        },
+        {
+          "word": "origin"
+        }
+      ]
+    },
+    {
+      "id": "eq-0191",
+      "page": 21,
+      "printedPage": 20,
+      "row": 1,
+      "meaning": "独特的",
+      "words": [
+        {
+          "word": "distinct"
+        },
+        {
+          "word": "idiosyncratic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0192",
+      "page": 21,
+      "printedPage": 20,
+      "row": 2,
+      "meaning": "供应者",
+      "words": [
+        {
+          "word": "purveyors"
+        },
+        {
+          "word": "suppliers"
+        }
+      ]
+    },
+    {
+      "id": "eq-0193",
+      "page": 21,
+      "printedPage": 20,
+      "row": 3,
+      "meaning": "内在的",
+      "words": [
+        {
+          "word": "inherent in"
+        },
+        {
+          "word": "intrinsic to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0194",
+      "page": 21,
+      "printedPage": 20,
+      "row": 4,
+      "meaning": "抑制",
+      "words": [
+        {
+          "word": "dampen"
+        },
+        {
+          "word": "impede"
+        }
+      ]
+    },
+    {
+      "id": "eq-0195",
+      "page": 21,
+      "printedPage": 20,
+      "row": 5,
+      "meaning": "欺骗",
+      "words": [
+        {
+          "word": "fraud"
+        },
+        {
+          "word": "duplicity"
+        }
+      ]
+    },
+    {
+      "id": "eq-0196",
+      "page": 21,
+      "printedPage": 20,
+      "row": 6,
+      "meaning": "传达",
+      "words": [
+        {
+          "word": "convey"
+        },
+        {
+          "word": "impart"
+        }
+      ]
+    },
+    {
+      "id": "eq-0197",
+      "page": 21,
+      "printedPage": 20,
+      "row": 7,
+      "meaning": "似是而非的",
+      "words": [
+        {
+          "word": "specious"
+        },
+        {
+          "word": "deceptive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0198",
+      "page": 21,
+      "printedPage": 20,
+      "row": 8,
+      "meaning": "易变的",
+      "words": [
+        {
+          "word": "fluid"
+        },
+        {
+          "word": "mutable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0199",
+      "page": 21,
+      "printedPage": 20,
+      "row": 9,
+      "meaning": "奢华",
+      "words": [
+        {
+          "word": "a splendor"
+        },
+        {
+          "word": "a sumptuousness"
+        }
+      ]
+    },
+    {
+      "id": "eq-0200",
+      "page": 21,
+      "printedPage": 20,
+      "row": 10,
+      "meaning": "无处不在",
+      "words": [
+        {
+          "word": "pervasive"
+        },
+        {
+          "word": "ubiquitous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0201",
+      "page": 22,
+      "printedPage": 21,
+      "row": 1,
+      "meaning": "无法抗拒的",
+      "words": [
+        {
+          "word": "overwhelming"
+        },
+        {
+          "word": "irresistible"
+        }
+      ]
+    },
+    {
+      "id": "eq-0202",
+      "page": 22,
+      "printedPage": 21,
+      "row": 2,
+      "meaning": "过于甜腻",
+      "words": [
+        {
+          "word": "saccharine"
+        },
+        {
+          "word": "cloying"
+        }
+      ]
+    },
+    {
+      "id": "eq-0203",
+      "page": 22,
+      "printedPage": 21,
+      "row": 3,
+      "meaning": "急切",
+      "words": [
+        {
+          "word": "impatient"
+        },
+        {
+          "word": "keen"
+        }
+      ]
+    },
+    {
+      "id": "eq-0204",
+      "page": 22,
+      "printedPage": 21,
+      "row": 4,
+      "meaning": "基础的",
+      "words": [
+        {
+          "word": "essential in"
+        },
+        {
+          "word": "foundational to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0205",
+      "page": 22,
+      "printedPage": 21,
+      "row": 5,
+      "meaning": "无懈可击",
+      "words": [
+        {
+          "word": "unassailable"
+        },
+        {
+          "word": "airtight"
+        }
+      ]
+    },
+    {
+      "id": "eq-0206",
+      "page": 22,
+      "printedPage": 21,
+      "row": 6,
+      "meaning": "虚构",
+      "words": [
+        {
+          "word": "fictions"
+        },
+        {
+          "word": "inventions"
+        }
+      ]
+    },
+    {
+      "id": "eq-0207",
+      "page": 22,
+      "printedPage": 21,
+      "row": 7,
+      "meaning": "加强，巩固",
+      "words": [
+        {
+          "word": "reinforces"
+        },
+        {
+          "word": "buttresses"
+        }
+      ]
+    },
+    {
+      "id": "eq-0208",
+      "page": 22,
+      "printedPage": 21,
+      "row": 8,
+      "meaning": "分割",
+      "words": [
+        {
+          "word": "partitioning"
+        },
+        {
+          "word": "segmenting"
+        }
+      ]
+    },
+    {
+      "id": "eq-0209",
+      "page": 22,
+      "printedPage": 21,
+      "row": 9,
+      "meaning": "权威的",
+      "words": [
+        {
+          "word": "authoritative"
+        },
+        {
+          "word": "definitive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0210",
+      "page": 22,
+      "printedPage": 21,
+      "row": 10,
+      "meaning": "典型的",
+      "words": [
+        {
+          "word": "characteristic"
+        },
+        {
+          "word": "emblematic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0211",
+      "page": 23,
+      "printedPage": 22,
+      "row": 1,
+      "meaning": "受影响并被启发",
+      "words": [
+        {
+          "word": "influenced"
+        },
+        {
+          "word": "informed"
+        }
+      ]
+    },
+    {
+      "id": "eq-0212",
+      "page": 23,
+      "printedPage": 22,
+      "row": 2,
+      "meaning": "密切相关",
+      "words": [
+        {
+          "word": "allied"
+        },
+        {
+          "word": "conflated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0213",
+      "page": 23,
+      "printedPage": 22,
+      "row": 3,
+      "meaning": "前所未有的",
+      "words": [
+        {
+          "word": "unprecedented"
+        },
+        {
+          "word": "unique"
+        }
+      ]
+    },
+    {
+      "id": "eq-0214",
+      "page": 23,
+      "printedPage": 22,
+      "row": 4,
+      "meaning": "废除",
+      "words": [
+        {
+          "word": "abrogate"
+        },
+        {
+          "word": "nullify"
+        }
+      ]
+    },
+    {
+      "id": "eq-0215",
+      "page": 23,
+      "printedPage": 22,
+      "row": 5,
+      "meaning": "提炼",
+      "words": [
+        {
+          "word": "distill"
+        },
+        {
+          "word": "extract"
+        }
+      ]
+    },
+    {
+      "id": "eq-0216",
+      "page": 23,
+      "printedPage": 22,
+      "row": 6,
+      "meaning": "冗长乏味",
+      "words": [
+        {
+          "word": "tedious"
+        },
+        {
+          "word": "tiresome"
+        }
+      ]
+    },
+    {
+      "id": "eq-0217",
+      "page": 23,
+      "printedPage": 22,
+      "row": 7,
+      "meaning": "简洁",
+      "words": [
+        {
+          "word": "economy"
+        },
+        {
+          "word": "concision"
+        }
+      ]
+    },
+    {
+      "id": "eq-0218",
+      "page": 23,
+      "printedPage": 22,
+      "row": 8,
+      "meaning": "矫正手段",
+      "words": [
+        {
+          "word": "antidote to"
+        },
+        {
+          "word": "corrective to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0219",
+      "page": 23,
+      "printedPage": 22,
+      "row": 9,
+      "meaning": "反复无常的",
+      "words": [
+        {
+          "word": "capricious"
+        },
+        {
+          "word": "cavalier"
+        }
+      ]
+    },
+    {
+      "id": "eq-0220",
+      "page": 23,
+      "printedPage": 22,
+      "row": 10,
+      "meaning": "使无效",
+      "words": [
+        {
+          "word": "nullified"
+        },
+        {
+          "word": "vitiated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0221",
+      "page": 24,
+      "printedPage": 23,
+      "row": 1,
+      "meaning": "尖刻抨击",
+      "words": [
+        {
+          "word": "vitriol"
+        },
+        {
+          "word": "obloquy"
+        }
+      ]
+    },
+    {
+      "id": "eq-0222",
+      "page": 24,
+      "printedPage": 23,
+      "row": 2,
+      "meaning": "冷静理智地",
+      "words": [
+        {
+          "word": "soberly"
+        },
+        {
+          "word": "sensibly"
+        }
+      ]
+    },
+    {
+      "id": "eq-0223",
+      "page": 24,
+      "printedPage": 23,
+      "row": 3,
+      "meaning": "异常的",
+      "words": [
+        {
+          "word": "anomalous"
+        },
+        {
+          "word": "exceptional"
+        }
+      ]
+    },
+    {
+      "id": "eq-0224",
+      "page": 24,
+      "printedPage": 23,
+      "row": 4,
+      "meaning": "批评指责",
+      "words": [
+        {
+          "word": "disapprobation"
+        },
+        {
+          "word": "censure"
+        }
+      ]
+    },
+    {
+      "id": "eq-0225",
+      "page": 24,
+      "printedPage": 23,
+      "row": 5,
+      "meaning": "安抚",
+      "words": [
+        {
+          "word": "placate"
+        },
+        {
+          "word": "appease"
+        }
+      ]
+    },
+    {
+      "id": "eq-0226",
+      "page": 24,
+      "printedPage": 23,
+      "row": 6,
+      "meaning": "多才多艺",
+      "words": [
+        {
+          "word": "protean"
+        },
+        {
+          "word": "versatile"
+        }
+      ]
+    },
+    {
+      "id": "eq-0227",
+      "page": 24,
+      "printedPage": 23,
+      "row": 7,
+      "meaning": "起源",
+      "words": [
+        {
+          "word": "origin"
+        },
+        {
+          "word": "provenance"
+        }
+      ]
+    },
+    {
+      "id": "eq-0228",
+      "page": 24,
+      "printedPage": 23,
+      "row": 8,
+      "meaning": "缺乏",
+      "words": [
+        {
+          "word": "dearth"
+        },
+        {
+          "word": "paucity"
+        }
+      ]
+    },
+    {
+      "id": "eq-0229",
+      "page": 24,
+      "printedPage": 23,
+      "row": 9,
+      "meaning": "值得尊敬的",
+      "words": [
+        {
+          "word": "respected"
+        },
+        {
+          "word": "venerable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0230",
+      "page": 24,
+      "printedPage": 23,
+      "row": 10,
+      "meaning": "不重要的",
+      "words": [
+        {
+          "word": "trivial"
+        },
+        {
+          "word": "inconsequential"
+        }
+      ]
+    },
+    {
+      "id": "eq-0231",
+      "page": 25,
+      "printedPage": 24,
+      "row": 1,
+      "meaning": "毫无根据",
+      "words": [
+        {
+          "word": "baseless"
+        },
+        {
+          "word": "untenable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0232",
+      "page": 25,
+      "printedPage": 24,
+      "row": 2,
+      "meaning": "受限",
+      "words": [
+        {
+          "word": "restricted"
+        },
+        {
+          "word": "circumscribed"
+        }
+      ]
+    },
+    {
+      "id": "eq-0233",
+      "page": 25,
+      "printedPage": 24,
+      "row": 3,
+      "meaning": "不切实际",
+      "words": [
+        {
+          "word": "quixotic"
+        },
+        {
+          "word": "idealistic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0234",
+      "page": 25,
+      "printedPage": 24,
+      "row": 4,
+      "meaning": "坚持",
+      "words": [
+        {
+          "word": "asserts"
+        },
+        {
+          "word": "maintains"
+        }
+      ]
+    },
+    {
+      "id": "eq-0235",
+      "page": 25,
+      "printedPage": 24,
+      "row": 5,
+      "meaning": "预示",
+      "words": [
+        {
+          "word": "portend"
+        },
+        {
+          "word": "predict"
+        }
+      ]
+    },
+    {
+      "id": "eq-0236",
+      "page": 25,
+      "printedPage": 24,
+      "row": 6,
+      "meaning": "避开",
+      "words": [
+        {
+          "word": "sidestep"
+        },
+        {
+          "word": "circumvent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0237",
+      "page": 25,
+      "printedPage": 24,
+      "row": 7,
+      "meaning": "不同种类的，异质的",
+      "words": [
+        {
+          "word": "heterogeneous"
+        },
+        {
+          "word": "dissimilar"
+        }
+      ]
+    },
+    {
+      "id": "eq-0238",
+      "page": 25,
+      "printedPage": 24,
+      "row": 8,
+      "meaning": "显而易见的",
+      "words": [
+        {
+          "word": "visible"
+        },
+        {
+          "word": "salient"
+        }
+      ]
+    },
+    {
+      "id": "eq-0239",
+      "page": 25,
+      "printedPage": 24,
+      "row": 9,
+      "meaning": "轻视",
+      "words": [
+        {
+          "word": "slighted"
+        },
+        {
+          "word": "disparaged"
+        }
+      ]
+    },
+    {
+      "id": "eq-0240",
+      "page": 25,
+      "printedPage": 24,
+      "row": 10,
+      "meaning": "一丝不苟",
+      "words": [
+        {
+          "word": "exactitude"
+        },
+        {
+          "word": "meticulousness"
+        }
+      ]
+    },
+    {
+      "id": "eq-0241",
+      "page": 26,
+      "printedPage": 25,
+      "row": 1,
+      "meaning": "平静",
+      "words": [
+        {
+          "word": "quiescence"
+        },
+        {
+          "word": "calm"
+        }
+      ]
+    },
+    {
+      "id": "eq-0242",
+      "page": 26,
+      "printedPage": 25,
+      "row": 2,
+      "meaning": "利他主义",
+      "words": [
+        {
+          "word": "beneficence"
+        },
+        {
+          "word": "altruism"
+        }
+      ]
+    },
+    {
+      "id": "eq-0243",
+      "page": 26,
+      "printedPage": 25,
+      "row": 3,
+      "meaning": "狂热分子",
+      "words": [
+        {
+          "word": "an extremist"
+        },
+        {
+          "word": "a zealot"
+        }
+      ]
+    },
+    {
+      "id": "eq-0244",
+      "page": 26,
+      "printedPage": 25,
+      "row": 4,
+      "meaning": "和蔼可亲",
+      "words": [
+        {
+          "word": "affable"
+        },
+        {
+          "word": "easygoing"
+        }
+      ]
+    },
+    {
+      "id": "eq-0245",
+      "page": 26,
+      "printedPage": 25,
+      "row": 5,
+      "meaning": "煽动性的",
+      "words": [
+        {
+          "word": "inflammatory"
+        },
+        {
+          "word": "provocative"
+        }
+      ]
+    },
+    {
+      "id": "eq-0246",
+      "page": 26,
+      "printedPage": 25,
+      "row": 6,
+      "meaning": "多种多样的",
+      "words": [
+        {
+          "word": "heterogeneous"
+        },
+        {
+          "word": "disparate"
+        }
+      ]
+    },
+    {
+      "id": "eq-0247",
+      "page": 26,
+      "printedPage": 25,
+      "row": 7,
+      "meaning": "令人畏惧",
+      "words": [
+        {
+          "word": "intimidating"
+        },
+        {
+          "word": "scary"
+        }
+      ]
+    },
+    {
+      "id": "eq-0248",
+      "page": 26,
+      "printedPage": 25,
+      "row": 8,
+      "meaning": "假设",
+      "words": [
+        {
+          "word": "hypotheses"
+        },
+        {
+          "word": "preconceptions"
+        }
+      ]
+    },
+    {
+      "id": "eq-0249",
+      "page": 26,
+      "printedPage": 25,
+      "row": 9,
+      "meaning": "华而不实",
+      "words": [
+        {
+          "word": "showy"
+        },
+        {
+          "word": "meretricious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0250",
+      "page": 26,
+      "printedPage": 25,
+      "row": 10,
+      "meaning": "犹豫不决",
+      "words": [
+        {
+          "word": "waver"
+        },
+        {
+          "word": "oscillate"
+        }
+      ]
+    },
+    {
+      "id": "eq-0251",
+      "page": 27,
+      "printedPage": 26,
+      "row": 1,
+      "meaning": "易懂且清晰",
+      "words": [
+        {
+          "word": "understandable"
+        },
+        {
+          "word": "transparent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0252",
+      "page": 27,
+      "printedPage": 26,
+      "row": 2,
+      "meaning": "本地的",
+      "words": [
+        {
+          "word": "endemic"
+        },
+        {
+          "word": "native"
+        }
+      ]
+    },
+    {
+      "id": "eq-0253",
+      "page": 27,
+      "printedPage": 26,
+      "row": 3,
+      "meaning": "灵活的",
+      "words": [
+        {
+          "word": "flexible"
+        },
+        {
+          "word": "supple"
+        }
+      ]
+    },
+    {
+      "id": "eq-0254",
+      "page": 27,
+      "printedPage": 26,
+      "row": 4,
+      "meaning": "缺乏了解",
+      "words": [
+        {
+          "word": "unfamiliarity with"
+        },
+        {
+          "word": "ignorance of"
+        }
+      ]
+    },
+    {
+      "id": "eq-0255",
+      "page": 27,
+      "printedPage": 26,
+      "row": 5,
+      "meaning": "异常的",
+      "words": [
+        {
+          "word": "anomalous"
+        },
+        {
+          "word": "unusual"
+        }
+      ]
+    },
+    {
+      "id": "eq-0256",
+      "page": 27,
+      "printedPage": 26,
+      "row": 6,
+      "meaning": "前所未有的",
+      "words": [
+        {
+          "word": "unexampled"
+        },
+        {
+          "word": "novel"
+        }
+      ]
+    },
+    {
+      "id": "eq-0257",
+      "page": 27,
+      "printedPage": 26,
+      "row": 7,
+      "meaning": "过时的",
+      "words": [
+        {
+          "word": "outmoded"
+        },
+        {
+          "word": "unfashionable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0258",
+      "page": 27,
+      "printedPage": 26,
+      "row": 8,
+      "meaning": "谴责",
+      "words": [
+        {
+          "word": "decry"
+        },
+        {
+          "word": "condemn"
+        }
+      ]
+    },
+    {
+      "id": "eq-0259",
+      "page": 27,
+      "printedPage": 26,
+      "row": 9,
+      "meaning": "显眼",
+      "words": [
+        {
+          "word": "conspicuous"
+        },
+        {
+          "word": "prominent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0260",
+      "page": 27,
+      "printedPage": 26,
+      "row": 10,
+      "meaning": "不重要的",
+      "words": [
+        {
+          "word": "trivial"
+        },
+        {
+          "word": "inessential"
+        }
+      ]
+    },
+    {
+      "id": "eq-0261",
+      "page": 28,
+      "printedPage": 27,
+      "row": 1,
+      "meaning": "渴望的，热切的",
+      "words": [
+        {
+          "word": "eager"
+        },
+        {
+          "word": "keen"
+        }
+      ]
+    },
+    {
+      "id": "eq-0262",
+      "page": 28,
+      "printedPage": 27,
+      "row": 2,
+      "meaning": "谴责",
+      "words": [
+        {
+          "word": "denunciations of"
+        },
+        {
+          "word": "indictments of"
+        }
+      ]
+    },
+    {
+      "id": "eq-0263",
+      "page": 28,
+      "printedPage": 27,
+      "row": 3,
+      "meaning": "基础的",
+      "words": [
+        {
+          "word": "rudimentary"
+        },
+        {
+          "word": "elemental"
+        }
+      ]
+    },
+    {
+      "id": "eq-0264",
+      "page": 28,
+      "printedPage": 27,
+      "row": 4,
+      "meaning": "过量",
+      "words": [
+        {
+          "word": "plethora"
+        },
+        {
+          "word": "surfeit"
+        }
+      ]
+    },
+    {
+      "id": "eq-0265",
+      "page": 28,
+      "printedPage": 27,
+      "row": 5,
+      "meaning": "早熟",
+      "words": [
+        {
+          "word": "maturity"
+        },
+        {
+          "word": "precociousness"
+        }
+      ]
+    },
+    {
+      "id": "eq-0266",
+      "page": 28,
+      "printedPage": 27,
+      "row": 6,
+      "meaning": "反复无常",
+      "words": [
+        {
+          "word": "capricious"
+        },
+        {
+          "word": "unpredictable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0267",
+      "page": 28,
+      "printedPage": 27,
+      "row": 7,
+      "meaning": "遗迹",
+      "words": [
+        {
+          "word": "relic"
+        },
+        {
+          "word": "vestige"
+        }
+      ]
+    },
+    {
+      "id": "eq-0268",
+      "page": 28,
+      "printedPage": 27,
+      "row": 8,
+      "meaning": "强健的",
+      "words": [
+        {
+          "word": "healthy"
+        },
+        {
+          "word": "robust"
+        }
+      ]
+    },
+    {
+      "id": "eq-0269",
+      "page": 28,
+      "printedPage": 27,
+      "row": 9,
+      "meaning": "困惑",
+      "words": [
+        {
+          "word": "flummoxed"
+        },
+        {
+          "word": "confounded"
+        }
+      ]
+    },
+    {
+      "id": "eq-0270",
+      "page": 28,
+      "printedPage": 27,
+      "row": 10,
+      "meaning": "难以理解的",
+      "words": [
+        {
+          "word": "a cryptic"
+        },
+        {
+          "word": "an elusive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0271",
+      "page": 29,
+      "printedPage": 28,
+      "row": 1,
+      "meaning": "着迷于",
+      "words": [
+        {
+          "word": "captivated by"
+        },
+        {
+          "word": "enamored of"
+        }
+      ]
+    },
+    {
+      "id": "eq-0272",
+      "page": 29,
+      "printedPage": 28,
+      "row": 2,
+      "meaning": "刻板的",
+      "words": [
+        {
+          "word": "canned"
+        },
+        {
+          "word": "formulaic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0273",
+      "page": 29,
+      "printedPage": 28,
+      "row": 3,
+      "meaning": "客观公正",
+      "words": [
+        {
+          "word": "objective"
+        },
+        {
+          "word": "impartial"
+        }
+      ]
+    },
+    {
+      "id": "eq-0274",
+      "page": 29,
+      "printedPage": 28,
+      "row": 4,
+      "meaning": "未减弱的",
+      "words": [
+        {
+          "word": "unabated"
+        },
+        {
+          "word": "undiminished"
+        }
+      ]
+    },
+    {
+      "id": "eq-0275",
+      "page": 29,
+      "printedPage": 28,
+      "row": 5,
+      "meaning": "有害的",
+      "words": [
+        {
+          "word": "deleterious"
+        },
+        {
+          "word": "counterproductive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0276",
+      "page": 29,
+      "printedPage": 28,
+      "row": 6,
+      "meaning": "微不足道",
+      "words": [
+        {
+          "word": "a trivial"
+        },
+        {
+          "word": "an insignificant"
+        }
+      ]
+    },
+    {
+      "id": "eq-0277",
+      "page": 29,
+      "printedPage": 28,
+      "row": 7,
+      "meaning": "无用的",
+      "words": [
+        {
+          "word": "futile"
+        },
+        {
+          "word": "fruitless"
+        }
+      ]
+    },
+    {
+      "id": "eq-0278",
+      "page": 29,
+      "printedPage": 28,
+      "row": 8,
+      "meaning": "自主，独立",
+      "words": [
+        {
+          "word": "autonomy"
+        },
+        {
+          "word": "independence"
+        }
+      ]
+    },
+    {
+      "id": "eq-0279",
+      "page": 29,
+      "printedPage": 28,
+      "row": 9,
+      "meaning": "减轻",
+      "words": [
+        {
+          "word": "allay"
+        },
+        {
+          "word": "palliate"
+        }
+      ]
+    },
+    {
+      "id": "eq-0280",
+      "page": 29,
+      "printedPage": 28,
+      "row": 10,
+      "meaning": "羞辱",
+      "words": [
+        {
+          "word": "opprobrium"
+        },
+        {
+          "word": "infamy"
+        }
+      ]
+    },
+    {
+      "id": "eq-0281",
+      "page": 30,
+      "printedPage": 29,
+      "row": 1,
+      "meaning": "尖刻",
+      "words": [
+        {
+          "word": "acrimony"
+        },
+        {
+          "word": "bitterness"
+        }
+      ]
+    },
+    {
+      "id": "eq-0282",
+      "page": 30,
+      "printedPage": 29,
+      "row": 2,
+      "meaning": "不精确",
+      "words": [
+        {
+          "word": "imprecise"
+        },
+        {
+          "word": "inexact"
+        }
+      ]
+    },
+    {
+      "id": "eq-0283",
+      "page": 30,
+      "printedPage": 29,
+      "row": 3,
+      "meaning": "谨慎节俭",
+      "words": [
+        {
+          "word": "prudent"
+        },
+        {
+          "word": "provident"
+        }
+      ]
+    },
+    {
+      "id": "eq-0284",
+      "page": 30,
+      "printedPage": 29,
+      "row": 4,
+      "meaning": "高深莫测",
+      "words": [
+        {
+          "word": "unfathomable"
+        },
+        {
+          "word": "inscrutable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0285",
+      "page": 30,
+      "printedPage": 29,
+      "row": 5,
+      "meaning": "难以察觉的",
+      "words": [
+        {
+          "word": "indiscernible"
+        },
+        {
+          "word": "imperceptible"
+        }
+      ]
+    },
+    {
+      "id": "eq-0286",
+      "page": 30,
+      "printedPage": 29,
+      "row": 6,
+      "meaning": "赞美",
+      "words": [
+        {
+          "word": "tributes to"
+        },
+        {
+          "word": "encomiums to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0287",
+      "page": 30,
+      "printedPage": 29,
+      "row": 7,
+      "meaning": "宽容",
+      "words": [
+        {
+          "word": "charitable"
+        },
+        {
+          "word": "forbearing"
+        }
+      ]
+    },
+    {
+      "id": "eq-0288",
+      "page": 30,
+      "printedPage": 29,
+      "row": 8,
+      "meaning": "正直",
+      "words": [
+        {
+          "word": "probity"
+        },
+        {
+          "word": "integrity"
+        }
+      ]
+    },
+    {
+      "id": "eq-0289",
+      "page": 30,
+      "printedPage": 29,
+      "row": 9,
+      "meaning": "有利的",
+      "words": [
+        {
+          "word": "advantageous"
+        },
+        {
+          "word": "expedient"
+        }
+      ]
+    },
+    {
+      "id": "eq-0290",
+      "page": 30,
+      "printedPage": 29,
+      "row": 10,
+      "meaning": "有偏见的",
+      "words": [
+        {
+          "word": "slanted"
+        },
+        {
+          "word": "tendentious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0291",
+      "page": 31,
+      "printedPage": 30,
+      "row": 1,
+      "meaning": "显而易见",
+      "words": [
+        {
+          "word": "manifest"
+        },
+        {
+          "word": "obvious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0292",
+      "page": 31,
+      "printedPage": 30,
+      "row": 2,
+      "meaning": "值得怀疑的",
+      "words": [
+        {
+          "word": "questionable"
+        },
+        {
+          "word": "dubious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0293",
+      "page": 31,
+      "printedPage": 30,
+      "row": 3,
+      "meaning": "非典型的",
+      "words": [
+        {
+          "word": "atypical"
+        },
+        {
+          "word": "idiosyncratic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0294",
+      "page": 31,
+      "printedPage": 30,
+      "row": 4,
+      "meaning": "否认",
+      "words": [
+        {
+          "word": "gainsaid"
+        },
+        {
+          "word": "disputed"
+        }
+      ]
+    },
+    {
+      "id": "eq-0295",
+      "page": 31,
+      "printedPage": 30,
+      "row": 5,
+      "meaning": "主流的，传统的",
+      "words": [
+        {
+          "word": "mainstream"
+        },
+        {
+          "word": "conventional"
+        }
+      ]
+    },
+    {
+      "id": "eq-0296",
+      "page": 31,
+      "printedPage": 30,
+      "row": 6,
+      "meaning": "惰性的",
+      "words": [
+        {
+          "word": "inert"
+        },
+        {
+          "word": "dormant"
+        }
+      ]
+    },
+    {
+      "id": "eq-0297",
+      "page": 31,
+      "printedPage": 30,
+      "row": 7,
+      "meaning": "间断的",
+      "words": [
+        {
+          "word": "punctuated"
+        },
+        {
+          "word": "Intermittent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0298",
+      "page": 31,
+      "printedPage": 30,
+      "row": 8,
+      "meaning": "反传统",
+      "words": [
+        {
+          "word": "iconoclastic"
+        },
+        {
+          "word": "subversive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0299",
+      "page": 31,
+      "printedPage": 30,
+      "row": 9,
+      "meaning": "谨慎",
+      "words": [
+        {
+          "word": "prudent"
+        },
+        {
+          "word": "circumspect"
+        }
+      ]
+    },
+    {
+      "id": "eq-0300",
+      "page": 31,
+      "printedPage": 30,
+      "row": 10,
+      "meaning": "强制的",
+      "words": [
+        {
+          "word": "coercive"
+        },
+        {
+          "word": "imperious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0301",
+      "page": 32,
+      "printedPage": 31,
+      "row": 1,
+      "meaning": "不知名的",
+      "words": [
+        {
+          "word": "anonymous"
+        },
+        {
+          "word": "unrecognized"
+        }
+      ]
+    },
+    {
+      "id": "eq-0302",
+      "page": 32,
+      "printedPage": 31,
+      "row": 2,
+      "meaning": "引起争议的",
+      "words": [
+        {
+          "word": "contentious"
+        },
+        {
+          "word": "controversial"
+        }
+      ]
+    },
+    {
+      "id": "eq-0303",
+      "page": 32,
+      "printedPage": 31,
+      "row": 3,
+      "meaning": "无处不在",
+      "words": [
+        {
+          "word": "ubiquitous"
+        },
+        {
+          "word": "pervasive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0304",
+      "page": 32,
+      "printedPage": 31,
+      "row": 4,
+      "meaning": "推测",
+      "words": [
+        {
+          "word": "inferred"
+        },
+        {
+          "word": "surmised"
+        }
+      ]
+    },
+    {
+      "id": "eq-0305",
+      "page": 32,
+      "printedPage": 31,
+      "row": 5,
+      "meaning": "逐渐减弱",
+      "words": [
+        {
+          "word": "fade"
+        },
+        {
+          "word": "wane"
+        }
+      ]
+    },
+    {
+      "id": "eq-0306",
+      "page": 32,
+      "printedPage": 31,
+      "row": 6,
+      "meaning": "非职业的",
+      "words": [
+        {
+          "word": "lay"
+        },
+        {
+          "word": "avocational"
+        }
+      ]
+    },
+    {
+      "id": "eq-0307",
+      "page": 32,
+      "printedPage": 31,
+      "row": 7,
+      "meaning": "坚实可靠",
+      "words": [
+        {
+          "word": "substantiality"
+        },
+        {
+          "word": "soundness"
+        }
+      ]
+    },
+    {
+      "id": "eq-0308",
+      "page": 32,
+      "printedPage": 31,
+      "row": 8,
+      "meaning": "深奥的",
+      "words": [
+        {
+          "word": "a recondite"
+        },
+        {
+          "word": "an esoteric"
+        }
+      ]
+    },
+    {
+      "id": "eq-0309",
+      "page": 32,
+      "printedPage": 31,
+      "row": 9,
+      "meaning": "痛饮",
+      "words": [
+        {
+          "word": "swill"
+        },
+        {
+          "word": "guzzle"
+        }
+      ]
+    },
+    {
+      "id": "eq-0310",
+      "page": 32,
+      "printedPage": 31,
+      "row": 10,
+      "meaning": "典范",
+      "words": [
+        {
+          "word": "paragons"
+        },
+        {
+          "word": "exemplars"
+        }
+      ]
+    },
+    {
+      "id": "eq-0311",
+      "page": 33,
+      "printedPage": 32,
+      "row": 1,
+      "meaning": "笨拙的",
+      "words": [
+        {
+          "word": "ungainly"
+        },
+        {
+          "word": "awkward"
+        }
+      ]
+    },
+    {
+      "id": "eq-0312",
+      "page": 33,
+      "printedPage": 32,
+      "row": 2,
+      "meaning": "创造力",
+      "words": [
+        {
+          "word": "invention"
+        },
+        {
+          "word": "contrivance"
+        }
+      ]
+    },
+    {
+      "id": "eq-0313",
+      "page": 33,
+      "printedPage": 32,
+      "row": 3,
+      "meaning": "省略",
+      "words": [
+        {
+          "word": "elisions"
+        },
+        {
+          "word": "lacunae"
+        }
+      ]
+    },
+    {
+      "id": "eq-0314",
+      "page": 33,
+      "printedPage": 32,
+      "row": 4,
+      "meaning": "流动的，巡游的",
+      "words": [
+        {
+          "word": "itinerants"
+        },
+        {
+          "word": "peripatetics"
+        }
+      ]
+    },
+    {
+      "id": "eq-0315",
+      "page": 33,
+      "printedPage": 32,
+      "row": 5,
+      "meaning": "不接受的",
+      "words": [
+        {
+          "word": "unreceptive to"
+        },
+        {
+          "word": "inhospitable to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0316",
+      "page": 33,
+      "printedPage": 32,
+      "row": 6,
+      "meaning": "避开，放弃",
+      "words": [
+        {
+          "word": "eschew"
+        },
+        {
+          "word": "forgo"
+        }
+      ]
+    },
+    {
+      "id": "eq-0317",
+      "page": 33,
+      "printedPage": 32,
+      "row": 7,
+      "meaning": "受损的",
+      "words": [
+        {
+          "word": "marred"
+        },
+        {
+          "word": "tainted"
+        }
+      ]
+    },
+    {
+      "id": "eq-0318",
+      "page": 33,
+      "printedPage": 32,
+      "row": 8,
+      "meaning": "明智的",
+      "words": [
+        {
+          "word": "judicious"
+        },
+        {
+          "word": "sensible"
+        }
+      ]
+    },
+    {
+      "id": "eq-0319",
+      "page": 33,
+      "printedPage": 32,
+      "row": 9,
+      "meaning": "缓和",
+      "words": [
+        {
+          "word": "temper"
+        },
+        {
+          "word": "neutralize"
+        }
+      ]
+    },
+    {
+      "id": "eq-0320",
+      "page": 33,
+      "printedPage": 32,
+      "row": 10,
+      "meaning": "大量的，重大的",
+      "words": [
+        {
+          "word": "sizable"
+        },
+        {
+          "word": "substantial"
+        }
+      ]
+    },
+    {
+      "id": "eq-0321",
+      "page": 34,
+      "printedPage": 33,
+      "row": 1,
+      "meaning": "易怒的",
+      "words": [
+        {
+          "word": "a choleric"
+        },
+        {
+          "word": "an irascible"
+        }
+      ]
+    },
+    {
+      "id": "eq-0322",
+      "page": 34,
+      "printedPage": 33,
+      "row": 2,
+      "meaning": "明显的",
+      "words": [
+        {
+          "word": "patent"
+        },
+        {
+          "word": "manifest"
+        }
+      ]
+    },
+    {
+      "id": "eq-0323",
+      "page": 34,
+      "printedPage": 33,
+      "row": 3,
+      "meaning": "熟练地",
+      "words": [
+        {
+          "word": "deftly"
+        },
+        {
+          "word": "adroitly"
+        }
+      ]
+    },
+    {
+      "id": "eq-0324",
+      "page": 34,
+      "printedPage": 33,
+      "row": 4,
+      "meaning": "不确定的",
+      "words": [
+        {
+          "word": "uncertain"
+        },
+        {
+          "word": "tenuous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0325",
+      "page": 34,
+      "printedPage": 33,
+      "row": 5,
+      "meaning": "丰富的",
+      "words": [
+        {
+          "word": "abundant"
+        },
+        {
+          "word": "dominant"
+        }
+      ]
+    },
+    {
+      "id": "eq-0326",
+      "page": 34,
+      "printedPage": 33,
+      "row": 6,
+      "meaning": "厚颜无耻",
+      "words": [
+        {
+          "word": "brazen"
+        },
+        {
+          "word": "barefaced"
+        }
+      ]
+    },
+    {
+      "id": "eq-0327",
+      "page": 34,
+      "printedPage": 33,
+      "row": 7,
+      "meaning": "蔑视",
+      "words": [
+        {
+          "word": "disdain for"
+        },
+        {
+          "word": "scorn for"
+        }
+      ]
+    },
+    {
+      "id": "eq-0328",
+      "page": 34,
+      "printedPage": 33,
+      "row": 8,
+      "meaning": "和平的，温和的",
+      "words": [
+        {
+          "word": "pacific"
+        },
+        {
+          "word": "dovish"
+        }
+      ]
+    },
+    {
+      "id": "eq-0329",
+      "page": 34,
+      "printedPage": 33,
+      "row": 9,
+      "meaning": "典型的",
+      "words": [
+        {
+          "word": "paradigmatic"
+        },
+        {
+          "word": "archetypal"
+        }
+      ]
+    },
+    {
+      "id": "eq-0330",
+      "page": 34,
+      "printedPage": 33,
+      "row": 10,
+      "meaning": "严格的",
+      "words": [
+        {
+          "word": "stringent"
+        },
+        {
+          "word": "exacting"
+        }
+      ]
+    },
+    {
+      "id": "eq-0331",
+      "page": 35,
+      "printedPage": 34,
+      "row": 1,
+      "meaning": "持续的",
+      "words": [
+        {
+          "word": "sustained"
+        },
+        {
+          "word": "perpetuated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0332",
+      "page": 35,
+      "printedPage": 34,
+      "row": 2,
+      "meaning": "传播",
+      "words": [
+        {
+          "word": "transmit"
+        },
+        {
+          "word": "propagate"
+        }
+      ]
+    },
+    {
+      "id": "eq-0333",
+      "page": 35,
+      "printedPage": 34,
+      "row": 3,
+      "meaning": "乡村的",
+      "words": [
+        {
+          "word": "bucolic"
+        },
+        {
+          "word": "rustic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0334",
+      "page": 35,
+      "printedPage": 34,
+      "row": 4,
+      "meaning": "缺乏",
+      "words": [
+        {
+          "word": "paucity"
+        },
+        {
+          "word": "scarcity"
+        }
+      ]
+    },
+    {
+      "id": "eq-0335",
+      "page": 35,
+      "printedPage": 34,
+      "row": 5,
+      "meaning": "过量",
+      "words": [
+        {
+          "word": "glut"
+        },
+        {
+          "word": "surfeit"
+        }
+      ]
+    },
+    {
+      "id": "eq-0336",
+      "page": 35,
+      "printedPage": 34,
+      "row": 6,
+      "meaning": "冷漠",
+      "words": [
+        {
+          "word": "indifference"
+        },
+        {
+          "word": "apathy"
+        }
+      ]
+    },
+    {
+      "id": "eq-0337",
+      "page": 35,
+      "printedPage": 34,
+      "row": 7,
+      "meaning": "多样的",
+      "words": [
+        {
+          "word": "varied"
+        },
+        {
+          "word": "diverse"
+        }
+      ]
+    },
+    {
+      "id": "eq-0338",
+      "page": 35,
+      "printedPage": 34,
+      "row": 8,
+      "meaning": "巡游的",
+      "words": [
+        {
+          "word": "itinerant"
+        },
+        {
+          "word": "peripatetic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0339",
+      "page": 35,
+      "printedPage": 34,
+      "row": 9,
+      "meaning": "补充完善",
+      "words": [
+        {
+          "word": "supplemented with"
+        },
+        {
+          "word": "augmented by"
+        }
+      ]
+    },
+    {
+      "id": "eq-0340",
+      "page": 35,
+      "printedPage": 34,
+      "row": 10,
+      "meaning": "阻碍",
+      "words": [
+        {
+          "word": "impeding"
+        },
+        {
+          "word": "hampering"
+        }
+      ]
+    },
+    {
+      "id": "eq-0341",
+      "page": 36,
+      "printedPage": 35,
+      "row": 1,
+      "meaning": "逼真",
+      "words": [
+        {
+          "word": "realism"
+        },
+        {
+          "word": "verisimilitude"
+        }
+      ]
+    },
+    {
+      "id": "eq-0342",
+      "page": 36,
+      "printedPage": 35,
+      "row": 2,
+      "meaning": "无根据的",
+      "words": [
+        {
+          "word": "unwarranted"
+        },
+        {
+          "word": "groundless"
+        }
+      ]
+    },
+    {
+      "id": "eq-0343",
+      "page": 36,
+      "printedPage": 35,
+      "row": 3,
+      "meaning": "无关的",
+      "words": [
+        {
+          "word": "irrelevant"
+        },
+        {
+          "word": "extraneous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0344",
+      "page": 36,
+      "printedPage": 35,
+      "row": 4,
+      "meaning": "贪婪的",
+      "words": [
+        {
+          "word": "rapacious"
+        },
+        {
+          "word": "avaricious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0345",
+      "page": 36,
+      "printedPage": 35,
+      "row": 5,
+      "meaning": "谜题",
+      "words": [
+        {
+          "word": "riddle"
+        },
+        {
+          "word": "conundrum"
+        }
+      ]
+    },
+    {
+      "id": "eq-0346",
+      "page": 36,
+      "printedPage": 35,
+      "row": 6,
+      "meaning": "原创的",
+      "words": [
+        {
+          "word": "original"
+        },
+        {
+          "word": "novel"
+        }
+      ]
+    },
+    {
+      "id": "eq-0347",
+      "page": 36,
+      "printedPage": 35,
+      "row": 7,
+      "meaning": "使满足",
+      "words": [
+        {
+          "word": "gratify"
+        },
+        {
+          "word": "please"
+        }
+      ]
+    },
+    {
+      "id": "eq-0348",
+      "page": 36,
+      "printedPage": 35,
+      "row": 8,
+      "meaning": "笨重的",
+      "words": [
+        {
+          "word": "a cumbersome"
+        },
+        {
+          "word": "an unwieldy"
+        }
+      ]
+    },
+    {
+      "id": "eq-0349",
+      "page": 36,
+      "printedPage": 35,
+      "row": 9,
+      "meaning": "促进",
+      "words": [
+        {
+          "word": "spurring"
+        },
+        {
+          "word": "fostering"
+        }
+      ]
+    },
+    {
+      "id": "eq-0350",
+      "page": 36,
+      "printedPage": 35,
+      "row": 10,
+      "meaning": "引出",
+      "words": [
+        {
+          "word": "elicit"
+        },
+        {
+          "word": "draw"
+        }
+      ]
+    },
+    {
+      "id": "eq-0351",
+      "page": 37,
+      "printedPage": 36,
+      "row": 1,
+      "meaning": "衰退",
+      "words": [
+        {
+          "word": "decay"
+        },
+        {
+          "word": "deterioration"
+        }
+      ]
+    },
+    {
+      "id": "eq-0352",
+      "page": 37,
+      "printedPage": 36,
+      "row": 2,
+      "meaning": "危险的",
+      "words": [
+        {
+          "word": "dangerous"
+        },
+        {
+          "word": "perilous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0353",
+      "page": 37,
+      "printedPage": 36,
+      "row": 3,
+      "meaning": "享受",
+      "words": [
+        {
+          "word": "relished"
+        },
+        {
+          "word": "delighted in"
+        }
+      ]
+    },
+    {
+      "id": "eq-0354",
+      "page": 37,
+      "printedPage": 36,
+      "row": 4,
+      "meaning": "短暂的休息或缓解",
+      "words": [
+        {
+          "word": "respite"
+        },
+        {
+          "word": "relief"
+        }
+      ]
+    },
+    {
+      "id": "eq-0355",
+      "page": 37,
+      "printedPage": 36,
+      "row": 5,
+      "meaning": "悲伤的",
+      "words": [
+        {
+          "word": "lugubrious"
+        },
+        {
+          "word": "gloomy"
+        }
+      ]
+    },
+    {
+      "id": "eq-0356",
+      "page": 37,
+      "printedPage": 36,
+      "row": 6,
+      "meaning": "缓和",
+      "words": [
+        {
+          "word": "deflate"
+        },
+        {
+          "word": "soothe"
+        }
+      ]
+    },
+    {
+      "id": "eq-0357",
+      "page": 37,
+      "printedPage": 36,
+      "row": 7,
+      "meaning": "无害的",
+      "words": [
+        {
+          "word": "harmless"
+        },
+        {
+          "word": "innocuous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0358",
+      "page": 37,
+      "printedPage": 36,
+      "row": 8,
+      "meaning": "说教的",
+      "words": [
+        {
+          "word": "preachy"
+        },
+        {
+          "word": "sanctimonious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0359",
+      "page": 37,
+      "printedPage": 36,
+      "row": 9,
+      "meaning": "恶臭的",
+      "words": [
+        {
+          "word": "malodorous"
+        },
+        {
+          "word": "noisome"
+        }
+      ]
+    },
+    {
+      "id": "eq-0360",
+      "page": 37,
+      "printedPage": 36,
+      "row": 10,
+      "meaning": "尖叫",
+      "words": [
+        {
+          "word": "shrieking"
+        },
+        {
+          "word": "caterwauling"
+        }
+      ]
+    },
+    {
+      "id": "eq-0361",
+      "page": 38,
+      "printedPage": 37,
+      "row": 1,
+      "meaning": "无视",
+      "words": [
+        {
+          "word": "defied"
+        },
+        {
+          "word": "disregarded"
+        }
+      ]
+    },
+    {
+      "id": "eq-0362",
+      "page": 38,
+      "printedPage": 37,
+      "row": 2,
+      "meaning": "昏昏欲睡的",
+      "words": [
+        {
+          "word": "somnolent"
+        },
+        {
+          "word": "lethargic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0363",
+      "page": 38,
+      "printedPage": 37,
+      "row": 3,
+      "meaning": "阻止",
+      "words": [
+        {
+          "word": "averted"
+        },
+        {
+          "word": "forestalled"
+        }
+      ]
+    },
+    {
+      "id": "eq-0364",
+      "page": 38,
+      "printedPage": 37,
+      "row": 4,
+      "meaning": "难以捉摸",
+      "words": [
+        {
+          "word": "evasive"
+        },
+        {
+          "word": "elusive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0365",
+      "page": 38,
+      "printedPage": 37,
+      "row": 5,
+      "meaning": "驱逐",
+      "words": [
+        {
+          "word": "expel"
+        },
+        {
+          "word": "oust"
+        }
+      ]
+    },
+    {
+      "id": "eq-0366",
+      "page": 38,
+      "printedPage": 37,
+      "row": 6,
+      "meaning": "扩散",
+      "words": [
+        {
+          "word": "diffuse"
+        },
+        {
+          "word": "spread"
+        }
+      ]
+    },
+    {
+      "id": "eq-0367",
+      "page": 38,
+      "printedPage": 37,
+      "row": 7,
+      "meaning": "短暂的",
+      "words": [
+        {
+          "word": "a momentary"
+        },
+        {
+          "word": "an evanescent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0368",
+      "page": 38,
+      "printedPage": 37,
+      "row": 8,
+      "meaning": "异常",
+      "words": [
+        {
+          "word": "irregularities"
+        },
+        {
+          "word": "anomalies"
+        }
+      ]
+    },
+    {
+      "id": "eq-0369",
+      "page": 38,
+      "printedPage": 37,
+      "row": 9,
+      "meaning": "模糊不清",
+      "words": [
+        {
+          "word": "ambiguous"
+        },
+        {
+          "word": "mute"
+        }
+      ]
+    },
+    {
+      "id": "eq-0370",
+      "page": 38,
+      "printedPage": 37,
+      "row": 10,
+      "meaning": "忽视",
+      "words": [
+        {
+          "word": "dismiss"
+        },
+        {
+          "word": "ignore"
+        }
+      ]
+    },
+    {
+      "id": "eq-0371",
+      "page": 39,
+      "printedPage": 38,
+      "row": 1,
+      "meaning": "与……相矛盾",
+      "words": [
+        {
+          "word": "belying"
+        },
+        {
+          "word": "contradicting"
+        }
+      ]
+    },
+    {
+      "id": "eq-0372",
+      "page": 39,
+      "printedPage": 38,
+      "row": 2,
+      "meaning": "倾向于",
+      "words": [
+        {
+          "word": "a proclivity for"
+        },
+        {
+          "word": "an affinity for"
+        }
+      ]
+    },
+    {
+      "id": "eq-0373",
+      "page": 39,
+      "printedPage": 38,
+      "row": 3,
+      "meaning": "博学的",
+      "words": [
+        {
+          "word": "learned"
+        },
+        {
+          "word": "erudite"
+        }
+      ]
+    },
+    {
+      "id": "eq-0374",
+      "page": 39,
+      "printedPage": 38,
+      "row": 4,
+      "meaning": "无法达到的",
+      "words": [
+        {
+          "word": "inaccessible to"
+        },
+        {
+          "word": "insurmountable for"
+        }
+      ]
+    },
+    {
+      "id": "eq-0375",
+      "page": 39,
+      "printedPage": 38,
+      "row": 5,
+      "meaning": "几乎不",
+      "words": [
+        {
+          "word": "scarcely"
+        },
+        {
+          "word": "hardly"
+        }
+      ]
+    },
+    {
+      "id": "eq-0376",
+      "page": 39,
+      "printedPage": 38,
+      "row": 6,
+      "meaning": "获取",
+      "words": [
+        {
+          "word": "obtain"
+        },
+        {
+          "word": "glean"
+        }
+      ]
+    },
+    {
+      "id": "eq-0377",
+      "page": 39,
+      "printedPage": 38,
+      "row": 7,
+      "meaning": "万能药",
+      "words": [
+        {
+          "word": "panacea"
+        },
+        {
+          "word": "remedy"
+        }
+      ]
+    },
+    {
+      "id": "eq-0378",
+      "page": 39,
+      "printedPage": 38,
+      "row": 8,
+      "meaning": "公正",
+      "words": [
+        {
+          "word": "fairness"
+        },
+        {
+          "word": "objectivity"
+        }
+      ]
+    },
+    {
+      "id": "eq-0379",
+      "page": 39,
+      "printedPage": 38,
+      "row": 9,
+      "meaning": "短暂的",
+      "words": [
+        {
+          "word": "short-lived"
+        },
+        {
+          "word": "ephemeral"
+        }
+      ]
+    },
+    {
+      "id": "eq-0380",
+      "page": 39,
+      "printedPage": 38,
+      "row": 10,
+      "meaning": "获得",
+      "words": [
+        {
+          "word": "secure"
+        },
+        {
+          "word": "earn"
+        }
+      ]
+    },
+    {
+      "id": "eq-0381",
+      "page": 40,
+      "printedPage": 39,
+      "row": 1,
+      "meaning": "产生",
+      "words": [
+        {
+          "word": "generating"
+        },
+        {
+          "word": "originating"
+        }
+      ]
+    },
+    {
+      "id": "eq-0382",
+      "page": 40,
+      "printedPage": 39,
+      "row": 2,
+      "meaning": "减轻",
+      "words": [
+        {
+          "word": "mitigated"
+        },
+        {
+          "word": "abated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0383",
+      "page": 40,
+      "printedPage": 39,
+      "row": 3,
+      "meaning": "自私自利",
+      "words": [
+        {
+          "word": "self-interest"
+        },
+        {
+          "word": "opportunism"
+        }
+      ]
+    },
+    {
+      "id": "eq-0384",
+      "page": 40,
+      "printedPage": 39,
+      "row": 4,
+      "meaning": "引起共鸣",
+      "words": [
+        {
+          "word": "resonates"
+        },
+        {
+          "word": "rings true"
+        }
+      ]
+    },
+    {
+      "id": "eq-0385",
+      "page": 40,
+      "printedPage": 39,
+      "row": 5,
+      "meaning": "严格的",
+      "words": [
+        {
+          "word": "proscriptive"
+        },
+        {
+          "word": "exacting"
+        }
+      ]
+    },
+    {
+      "id": "eq-0386",
+      "page": 40,
+      "printedPage": 39,
+      "row": 6,
+      "meaning": "纯朴",
+      "words": [
+        {
+          "word": "simple"
+        },
+        {
+          "word": "ingenuous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0387",
+      "page": 40,
+      "printedPage": 39,
+      "row": 7,
+      "meaning": "万能药",
+      "words": [
+        {
+          "word": "cure-all"
+        },
+        {
+          "word": "panacea"
+        }
+      ]
+    },
+    {
+      "id": "eq-0388",
+      "page": 40,
+      "printedPage": 39,
+      "row": 8,
+      "meaning": "晦涩难懂",
+      "words": [
+        {
+          "word": "obscure"
+        },
+        {
+          "word": "opaque"
+        }
+      ]
+    },
+    {
+      "id": "eq-0389",
+      "page": 40,
+      "printedPage": 39,
+      "row": 9,
+      "meaning": "坚韧毅力",
+      "words": [
+        {
+          "word": "tenacity"
+        },
+        {
+          "word": "resolve"
+        }
+      ]
+    },
+    {
+      "id": "eq-0390",
+      "page": 40,
+      "printedPage": 39,
+      "row": 10,
+      "meaning": "重复利用",
+      "words": [
+        {
+          "word": "recycle"
+        },
+        {
+          "word": "rehash"
+        }
+      ]
+    },
+    {
+      "id": "eq-0391",
+      "page": 41,
+      "printedPage": 40,
+      "row": 1,
+      "meaning": "礼貌",
+      "words": [
+        {
+          "word": "civility"
+        },
+        {
+          "word": "comity"
+        }
+      ]
+    },
+    {
+      "id": "eq-0392",
+      "page": 41,
+      "printedPage": 40,
+      "row": 2,
+      "meaning": "稀少的，微弱的",
+      "words": [
+        {
+          "word": "exiguous"
+        },
+        {
+          "word": "tenuous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0393",
+      "page": 41,
+      "printedPage": 40,
+      "row": 3,
+      "meaning": "象征性的",
+      "words": [
+        {
+          "word": "totemic"
+        },
+        {
+          "word": "emblematic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0394",
+      "page": 41,
+      "printedPage": 40,
+      "row": 4,
+      "meaning": "危险的",
+      "words": [
+        {
+          "word": "precarious"
+        },
+        {
+          "word": "perilous"
+        }
+      ]
+    },
+    {
+      "id": "eq-0395",
+      "page": 41,
+      "printedPage": 40,
+      "row": 5,
+      "meaning": "诽谤",
+      "words": [
+        {
+          "word": "aspersions"
+        },
+        {
+          "word": "slurs"
+        }
+      ]
+    },
+    {
+      "id": "eq-0396",
+      "page": 41,
+      "printedPage": 40,
+      "row": 6,
+      "meaning": "促进",
+      "words": [
+        {
+          "word": "fosters"
+        },
+        {
+          "word": "adopts"
+        }
+      ],
+      "needsReview": true,
+      "sourceNote": "原表中文栏印作“促进”，右侧例句使用收养幼崽的语境；保留中文栏并提示词义疑点。"
+    },
+    {
+      "id": "eq-0397",
+      "page": 41,
+      "printedPage": 40,
+      "row": 7,
+      "meaning": "熟练于",
+      "words": [
+        {
+          "word": "adept at"
+        },
+        {
+          "word": "proficient in"
+        }
+      ]
+    },
+    {
+      "id": "eq-0398",
+      "page": 41,
+      "printedPage": 40,
+      "row": 8,
+      "meaning": "曲折复杂",
+      "words": [
+        {
+          "word": "tortuous"
+        },
+        {
+          "word": "convoluted"
+        }
+      ]
+    },
+    {
+      "id": "eq-0399",
+      "page": 41,
+      "printedPage": 40,
+      "row": 9,
+      "meaning": "违反",
+      "words": [
+        {
+          "word": "violates"
+        },
+        {
+          "word": "contravenes"
+        }
+      ]
+    },
+    {
+      "id": "eq-0400",
+      "page": 41,
+      "printedPage": 40,
+      "row": 10,
+      "meaning": "紧急的",
+      "words": [
+        {
+          "word": "a pressing"
+        },
+        {
+          "word": "an exigent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0401",
+      "page": 42,
+      "printedPage": 41,
+      "row": 1,
+      "meaning": "不情愿的",
+      "words": [
+        {
+          "word": "a reluctant"
+        },
+        {
+          "word": "an unwilling"
+        }
+      ]
+    },
+    {
+      "id": "eq-0402",
+      "page": 42,
+      "printedPage": 41,
+      "row": 2,
+      "meaning": "察觉，辨别",
+      "words": [
+        {
+          "word": "detect"
+        },
+        {
+          "word": "discern"
+        }
+      ]
+    },
+    {
+      "id": "eq-0403",
+      "page": 42,
+      "printedPage": 41,
+      "row": 3,
+      "meaning": "迂回的",
+      "words": [
+        {
+          "word": "circuitous"
+        },
+        {
+          "word": "indirect"
+        }
+      ]
+    },
+    {
+      "id": "eq-0404",
+      "page": 42,
+      "printedPage": 41,
+      "row": 4,
+      "meaning": "消除",
+      "words": [
+        {
+          "word": "dispel"
+        },
+        {
+          "word": "dismiss"
+        }
+      ]
+    },
+    {
+      "id": "eq-0405",
+      "page": 42,
+      "printedPage": 41,
+      "row": 5,
+      "meaning": "令人生畏的",
+      "words": [
+        {
+          "word": "a formidable"
+        },
+        {
+          "word": "a daunting"
+        }
+      ]
+    },
+    {
+      "id": "eq-0406",
+      "page": 42,
+      "printedPage": 41,
+      "row": 6,
+      "meaning": "反复无常",
+      "words": [
+        {
+          "word": "inconstant"
+        },
+        {
+          "word": "capricious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0407",
+      "page": 42,
+      "printedPage": 41,
+      "row": 7,
+      "meaning": "胜利",
+      "words": [
+        {
+          "word": "triumph"
+        },
+        {
+          "word": "success"
+        }
+      ]
+    },
+    {
+      "id": "eq-0408",
+      "page": 42,
+      "printedPage": 41,
+      "row": 8,
+      "meaning": "无私仁慈",
+      "words": [
+        {
+          "word": "altruistic"
+        },
+        {
+          "word": "benevolent"
+        }
+      ]
+    },
+    {
+      "id": "eq-0409",
+      "page": 42,
+      "printedPage": 41,
+      "row": 9,
+      "meaning": "有利的",
+      "words": [
+        {
+          "word": "a favorable"
+        },
+        {
+          "word": "an auspicious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0410",
+      "page": 42,
+      "printedPage": 41,
+      "row": 10,
+      "meaning": "草率",
+      "words": [
+        {
+          "word": "cursory"
+        },
+        {
+          "word": "casual"
+        }
+      ]
+    },
+    {
+      "id": "eq-0411",
+      "page": 43,
+      "printedPage": 42,
+      "row": 1,
+      "meaning": "敌对的",
+      "words": [
+        {
+          "word": "an antagonistic"
+        },
+        {
+          "word": "an inimical"
+        }
+      ]
+    },
+    {
+      "id": "eq-0412",
+      "page": 43,
+      "printedPage": 42,
+      "row": 2,
+      "meaning": "亲属",
+      "words": [
+        {
+          "word": "kinfolk"
+        },
+        {
+          "word": "relative"
+        }
+      ]
+    },
+    {
+      "id": "eq-0413",
+      "page": 43,
+      "printedPage": 42,
+      "row": 3,
+      "meaning": "差异性",
+      "words": [
+        {
+          "word": "heterogeneity"
+        },
+        {
+          "word": "disparateness"
+        }
+      ]
+    },
+    {
+      "id": "eq-0414",
+      "page": 43,
+      "printedPage": 42,
+      "row": 4,
+      "meaning": "令人困惑的",
+      "words": [
+        {
+          "word": "perplexing"
+        },
+        {
+          "word": "enigmatic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0415",
+      "page": 43,
+      "printedPage": 42,
+      "row": 5,
+      "meaning": "静止的，暂停的",
+      "words": [
+        {
+          "word": "quiescent"
+        },
+        {
+          "word": "abeyant"
+        }
+      ]
+    },
+    {
+      "id": "eq-0416",
+      "page": 43,
+      "printedPage": 42,
+      "row": 6,
+      "meaning": "言简意赅",
+      "words": [
+        {
+          "word": "laconic"
+        },
+        {
+          "word": "taciturn"
+        }
+      ]
+    },
+    {
+      "id": "eq-0417",
+      "page": 43,
+      "printedPage": 42,
+      "row": 7,
+      "meaning": "难以理解",
+      "words": [
+        {
+          "word": "inaccessible"
+        },
+        {
+          "word": "opaque"
+        }
+      ]
+    },
+    {
+      "id": "eq-0418",
+      "page": 43,
+      "printedPage": 42,
+      "row": 8,
+      "meaning": "受到赞扬",
+      "words": [
+        {
+          "word": "hailed"
+        },
+        {
+          "word": "acclaimed"
+        }
+      ]
+    },
+    {
+      "id": "eq-0419",
+      "page": 43,
+      "printedPage": 42,
+      "row": 9,
+      "meaning": "要求",
+      "words": [
+        {
+          "word": "demanded"
+        },
+        {
+          "word": "exacted"
+        }
+      ]
+    },
+    {
+      "id": "eq-0420",
+      "page": 43,
+      "printedPage": 42,
+      "row": 10,
+      "meaning": "博学的",
+      "words": [
+        {
+          "word": "polymathic"
+        },
+        {
+          "word": "encyclopedic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0421",
+      "page": 44,
+      "printedPage": 43,
+      "row": 1,
+      "meaning": "引起争议的",
+      "words": [
+        {
+          "word": "controversial"
+        },
+        {
+          "word": "provocative"
+        }
+      ]
+    },
+    {
+      "id": "eq-0422",
+      "page": 44,
+      "printedPage": 43,
+      "row": 2,
+      "meaning": "使黯然失色",
+      "words": [
+        {
+          "word": "eclipse"
+        },
+        {
+          "word": "outdo"
+        }
+      ]
+    },
+    {
+      "id": "eq-0423",
+      "page": 44,
+      "printedPage": 43,
+      "row": 3,
+      "meaning": "长期的",
+      "words": [
+        {
+          "word": "perennial"
+        },
+        {
+          "word": "long-standing"
+        }
+      ]
+    },
+    {
+      "id": "eq-0424",
+      "page": 44,
+      "printedPage": 43,
+      "row": 4,
+      "meaning": "不确定性",
+      "words": [
+        {
+          "word": "uncertainty"
+        },
+        {
+          "word": "instability"
+        }
+      ]
+    },
+    {
+      "id": "eq-0425",
+      "page": 44,
+      "printedPage": 43,
+      "row": 5,
+      "meaning": "应受谴责的",
+      "words": [
+        {
+          "word": "reprehensible"
+        },
+        {
+          "word": "deplorable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0426",
+      "page": 44,
+      "printedPage": 43,
+      "row": 6,
+      "meaning": "支持",
+      "words": [
+        {
+          "word": "supported"
+        },
+        {
+          "word": "championed"
+        }
+      ]
+    },
+    {
+      "id": "eq-0427",
+      "page": 44,
+      "printedPage": 43,
+      "row": 7,
+      "meaning": "对应物",
+      "words": [
+        {
+          "word": "counterparts"
+        },
+        {
+          "word": "parallels"
+        }
+      ]
+    },
+    {
+      "id": "eq-0428",
+      "page": 44,
+      "printedPage": 43,
+      "row": 8,
+      "meaning": "过时的",
+      "words": [
+        {
+          "word": "obsolete"
+        },
+        {
+          "word": "outmoded"
+        }
+      ]
+    },
+    {
+      "id": "eq-0429",
+      "page": 44,
+      "printedPage": 43,
+      "row": 9,
+      "meaning": "不大可能",
+      "words": [
+        {
+          "word": "improbable"
+        },
+        {
+          "word": "unlikely"
+        }
+      ]
+    },
+    {
+      "id": "eq-0430",
+      "page": 44,
+      "printedPage": 43,
+      "row": 10,
+      "meaning": "创新的",
+      "words": [
+        {
+          "word": "experimental"
+        },
+        {
+          "word": "innovative"
+        }
+      ]
+    },
+    {
+      "id": "eq-0431",
+      "page": 45,
+      "printedPage": 44,
+      "row": 1,
+      "meaning": "融合",
+      "words": [
+        {
+          "word": "combine"
+        },
+        {
+          "word": "meld"
+        }
+      ]
+    },
+    {
+      "id": "eq-0432",
+      "page": 45,
+      "printedPage": 44,
+      "row": 2,
+      "meaning": "复兴",
+      "words": [
+        {
+          "word": "revival"
+        },
+        {
+          "word": "renaissance"
+        }
+      ]
+    },
+    {
+      "id": "eq-0433",
+      "page": 45,
+      "printedPage": 44,
+      "row": 3,
+      "meaning": "不一致",
+      "words": [
+        {
+          "word": "discrepancies"
+        },
+        {
+          "word": "incongruities"
+        }
+      ]
+    },
+    {
+      "id": "eq-0434",
+      "page": 45,
+      "printedPage": 44,
+      "row": 4,
+      "meaning": "让与",
+      "words": [
+        {
+          "word": "ceded to"
+        },
+        {
+          "word": "left to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0435",
+      "page": 45,
+      "printedPage": 44,
+      "row": 5,
+      "meaning": "简洁明了",
+      "words": [
+        {
+          "word": "simplicity"
+        },
+        {
+          "word": "intelligibility"
+        }
+      ]
+    },
+    {
+      "id": "eq-0436",
+      "page": 45,
+      "printedPage": 44,
+      "row": 6,
+      "meaning": "自信的",
+      "words": [
+        {
+          "word": "an assured"
+        },
+        {
+          "word": "a settled"
+        }
+      ]
+    },
+    {
+      "id": "eq-0437",
+      "page": 45,
+      "printedPage": 44,
+      "row": 7,
+      "meaning": "短暂的",
+      "words": [
+        {
+          "word": "transitory"
+        },
+        {
+          "word": "temporary"
+        }
+      ]
+    },
+    {
+      "id": "eq-0438",
+      "page": 45,
+      "printedPage": 44,
+      "row": 8,
+      "meaning": "再现",
+      "words": [
+        {
+          "word": "render"
+        },
+        {
+          "word": "reproduce"
+        }
+      ]
+    },
+    {
+      "id": "eq-0439",
+      "page": 45,
+      "printedPage": 44,
+      "row": 9,
+      "meaning": "受……影响",
+      "words": [
+        {
+          "word": "mediated by"
+        },
+        {
+          "word": "influenced by"
+        }
+      ]
+    },
+    {
+      "id": "eq-0440",
+      "page": 45,
+      "printedPage": 44,
+      "row": 10,
+      "meaning": "促成因素",
+      "words": [
+        {
+          "word": "catalyst for"
+        },
+        {
+          "word": "factor in"
+        }
+      ]
+    },
+    {
+      "id": "eq-0441",
+      "page": 46,
+      "printedPage": 45,
+      "row": 1,
+      "meaning": "不重要的",
+      "words": [
+        {
+          "word": "immaterial"
+        },
+        {
+          "word": "irrelevant"
+        }
+      ]
+    },
+    {
+      "id": "eq-0442",
+      "page": 46,
+      "printedPage": 45,
+      "row": 2,
+      "meaning": "精明",
+      "words": [
+        {
+          "word": "canny"
+        },
+        {
+          "word": "shrewd"
+        }
+      ]
+    },
+    {
+      "id": "eq-0443",
+      "page": 46,
+      "printedPage": 45,
+      "row": 3,
+      "meaning": "秘密的",
+      "words": [
+        {
+          "word": "a furtive"
+        },
+        {
+          "word": "a covert"
+        }
+      ]
+    },
+    {
+      "id": "eq-0444",
+      "page": 46,
+      "printedPage": 45,
+      "row": 4,
+      "meaning": "开放接受的",
+      "words": [
+        {
+          "word": "undogmatic"
+        },
+        {
+          "word": "receptive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0445",
+      "page": 46,
+      "printedPage": 45,
+      "row": 5,
+      "meaning": "嗜睡",
+      "words": [
+        {
+          "word": "somnolence"
+        },
+        {
+          "word": "lethargy"
+        }
+      ]
+    },
+    {
+      "id": "eq-0446",
+      "page": 46,
+      "printedPage": 45,
+      "row": 6,
+      "meaning": "欺骗",
+      "words": [
+        {
+          "word": "defraud"
+        },
+        {
+          "word": "swindle"
+        }
+      ]
+    },
+    {
+      "id": "eq-0447",
+      "page": 46,
+      "printedPage": 45,
+      "row": 7,
+      "meaning": "兼收并蓄",
+      "words": [
+        {
+          "word": "hybridity"
+        },
+        {
+          "word": "eclecticism"
+        }
+      ]
+    },
+    {
+      "id": "eq-0448",
+      "page": 46,
+      "printedPage": 45,
+      "row": 8,
+      "meaning": "支持者",
+      "words": [
+        {
+          "word": "promoter"
+        },
+        {
+          "word": "champion"
+        }
+      ]
+    },
+    {
+      "id": "eq-0449",
+      "page": 46,
+      "printedPage": 45,
+      "row": 9,
+      "meaning": "实用的",
+      "words": [
+        {
+          "word": "functional"
+        },
+        {
+          "word": "serviceable"
+        }
+      ]
+    },
+    {
+      "id": "eq-0450",
+      "page": 46,
+      "printedPage": 45,
+      "row": 10,
+      "meaning": "渴望的",
+      "words": [
+        {
+          "word": "keen"
+        },
+        {
+          "word": "impatient"
+        }
+      ]
+    },
+    {
+      "id": "eq-0451",
+      "page": 47,
+      "printedPage": 46,
+      "row": 1,
+      "meaning": "称赞",
+      "words": [
+        {
+          "word": "applauded"
+        },
+        {
+          "word": "extolled"
+        }
+      ]
+    },
+    {
+      "id": "eq-0452",
+      "page": 47,
+      "printedPage": 46,
+      "row": 2,
+      "meaning": "夸张的",
+      "words": [
+        {
+          "word": "histrionic"
+        },
+        {
+          "word": "theatrical"
+        }
+      ]
+    },
+    {
+      "id": "eq-0453",
+      "page": 47,
+      "printedPage": 46,
+      "row": 3,
+      "meaning": "恰当的",
+      "words": [
+        {
+          "word": "a fitting"
+        },
+        {
+          "word": "an apposite"
+        }
+      ]
+    },
+    {
+      "id": "eq-0454",
+      "page": 47,
+      "printedPage": 46,
+      "row": 4,
+      "meaning": "不胜任",
+      "words": [
+        {
+          "word": "inept at"
+        },
+        {
+          "word": "unequal to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0455",
+      "page": 47,
+      "printedPage": 46,
+      "row": 5,
+      "meaning": "怀疑",
+      "words": [
+        {
+          "word": "skepticism regarding"
+        },
+        {
+          "word": "doubt about"
+        }
+      ]
+    },
+    {
+      "id": "eq-0456",
+      "page": 47,
+      "printedPage": 46,
+      "row": 6,
+      "meaning": "非典型的，异常的",
+      "words": [
+        {
+          "word": "atypical"
+        },
+        {
+          "word": "exceptional"
+        }
+      ]
+    },
+    {
+      "id": "eq-0457",
+      "page": 47,
+      "printedPage": 46,
+      "row": 7,
+      "meaning": "终止",
+      "words": [
+        {
+          "word": "eliminating"
+        },
+        {
+          "word": "discontinuing"
+        }
+      ]
+    },
+    {
+      "id": "eq-0458",
+      "page": 47,
+      "printedPage": 46,
+      "row": 8,
+      "meaning": "解放的",
+      "words": [
+        {
+          "word": "a liberating"
+        },
+        {
+          "word": "an emancipatory"
+        }
+      ]
+    },
+    {
+      "id": "eq-0459",
+      "page": 47,
+      "printedPage": 46,
+      "row": 9,
+      "meaning": "阐明",
+      "words": [
+        {
+          "word": "illuminate"
+        },
+        {
+          "word": "clarify"
+        }
+      ]
+    },
+    {
+      "id": "eq-0460",
+      "page": 47,
+      "printedPage": 46,
+      "row": 10,
+      "meaning": "独有的",
+      "words": [
+        {
+          "word": "sequestered within"
+        },
+        {
+          "word": "unique to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0461",
+      "page": 48,
+      "printedPage": 47,
+      "row": 1,
+      "meaning": "被利用",
+      "words": [
+        {
+          "word": "exploited"
+        },
+        {
+          "word": "utilized"
+        }
+      ]
+    },
+    {
+      "id": "eq-0462",
+      "page": 48,
+      "printedPage": 47,
+      "row": 2,
+      "meaning": "懒惰",
+      "words": [
+        {
+          "word": "indolence"
+        },
+        {
+          "word": "sloth"
+        }
+      ]
+    },
+    {
+      "id": "eq-0463",
+      "page": 48,
+      "printedPage": 47,
+      "row": 3,
+      "meaning": "禁止",
+      "words": [
+        {
+          "word": "proscribe"
+        },
+        {
+          "word": "disallow"
+        }
+      ]
+    },
+    {
+      "id": "eq-0464",
+      "page": 48,
+      "printedPage": 47,
+      "row": 4,
+      "meaning": "缺乏根据的",
+      "words": [
+        {
+          "word": "speculative"
+        },
+        {
+          "word": "unsubstantiated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0465",
+      "page": 48,
+      "printedPage": 47,
+      "row": 5,
+      "meaning": "明智的",
+      "words": [
+        {
+          "word": "sensible"
+        },
+        {
+          "word": "levelheaded"
+        }
+      ]
+    },
+    {
+      "id": "eq-0466",
+      "page": 48,
+      "printedPage": 47,
+      "row": 6,
+      "meaning": "掠夺",
+      "words": [
+        {
+          "word": "predation"
+        },
+        {
+          "word": "rapacity"
+        }
+      ]
+    },
+    {
+      "id": "eq-0467",
+      "page": 48,
+      "printedPage": 47,
+      "row": 7,
+      "meaning": "唯一的",
+      "words": [
+        {
+          "word": "sole"
+        },
+        {
+          "word": "exclusive"
+        }
+      ]
+    },
+    {
+      "id": "eq-0468",
+      "page": 48,
+      "printedPage": 47,
+      "row": 8,
+      "meaning": "丰富的，充足的",
+      "words": [
+        {
+          "word": "ample"
+        },
+        {
+          "word": "prodigious"
+        }
+      ]
+    },
+    {
+      "id": "eq-0469",
+      "page": 48,
+      "printedPage": 47,
+      "row": 9,
+      "meaning": "相互依存",
+      "words": [
+        {
+          "word": "interdependent"
+        },
+        {
+          "word": "symbiotic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0470",
+      "page": 48,
+      "printedPage": 47,
+      "row": 10,
+      "meaning": "放弃",
+      "words": [
+        {
+          "word": "foreswearing"
+        },
+        {
+          "word": "renouncing"
+        }
+      ],
+      "needsReview": true,
+      "sourceNote": "原表印作 foreswearing，拼写待核对；未自动替换为其他词形。"
+    },
+    {
+      "id": "eq-0471",
+      "page": 49,
+      "printedPage": 48,
+      "row": 1,
+      "meaning": "放弃，拒绝",
+      "words": [
+        {
+          "word": "abjuration"
+        },
+        {
+          "word": "repudiation"
+        }
+      ]
+    },
+    {
+      "id": "eq-0472",
+      "page": 49,
+      "printedPage": 48,
+      "row": 2,
+      "meaning": "减弱",
+      "words": [
+        {
+          "word": "abates"
+        },
+        {
+          "word": "dissipates"
+        }
+      ]
+    },
+    {
+      "id": "eq-0473",
+      "page": 49,
+      "printedPage": 48,
+      "row": 3,
+      "meaning": "借口",
+      "words": [
+        {
+          "word": "contrivance"
+        },
+        {
+          "word": "pretext"
+        }
+      ]
+    },
+    {
+      "id": "eq-0474",
+      "page": 49,
+      "printedPage": 48,
+      "row": 4,
+      "meaning": "静止的，休眠的",
+      "words": [
+        {
+          "word": "quiescent"
+        },
+        {
+          "word": "dormant"
+        }
+      ]
+    },
+    {
+      "id": "eq-0475",
+      "page": 49,
+      "printedPage": 48,
+      "row": 5,
+      "meaning": "理想化",
+      "words": [
+        {
+          "word": "idealization"
+        },
+        {
+          "word": "romanticization"
+        }
+      ]
+    },
+    {
+      "id": "eq-0476",
+      "page": 49,
+      "printedPage": 48,
+      "row": 6,
+      "meaning": "滑稽举动",
+      "words": [
+        {
+          "word": "antics"
+        },
+        {
+          "word": "capers"
+        }
+      ]
+    },
+    {
+      "id": "eq-0477",
+      "page": 49,
+      "printedPage": 48,
+      "row": 7,
+      "meaning": "削弱",
+      "words": [
+        {
+          "word": "undermined"
+        },
+        {
+          "word": "hampered"
+        }
+      ]
+    },
+    {
+      "id": "eq-0478",
+      "page": 49,
+      "printedPage": 48,
+      "row": 8,
+      "meaning": "轻蔑的",
+      "words": [
+        {
+          "word": "dismissive of"
+        },
+        {
+          "word": "scornful of"
+        }
+      ]
+    },
+    {
+      "id": "eq-0479",
+      "page": 49,
+      "printedPage": 48,
+      "row": 9,
+      "meaning": "初始的，未完全成型的",
+      "words": [
+        {
+          "word": "an inchoate"
+        },
+        {
+          "word": "an incipient"
+        }
+      ]
+    },
+    {
+      "id": "eq-0480",
+      "page": 49,
+      "printedPage": 48,
+      "row": 10,
+      "meaning": "屈服于",
+      "words": [
+        {
+          "word": "ceded to"
+        },
+        {
+          "word": "surrendered to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0481",
+      "page": 50,
+      "printedPage": 49,
+      "row": 1,
+      "meaning": "乏味",
+      "words": [
+        {
+          "word": "banal"
+        },
+        {
+          "word": "lackluster"
+        }
+      ]
+    },
+    {
+      "id": "eq-0482",
+      "page": 50,
+      "printedPage": 49,
+      "row": 2,
+      "meaning": "缓和的",
+      "words": [
+        {
+          "word": "tempered"
+        },
+        {
+          "word": "mitigated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0483",
+      "page": 50,
+      "printedPage": 49,
+      "row": 3,
+      "meaning": "拒绝，否认",
+      "words": [
+        {
+          "word": "repudiate"
+        },
+        {
+          "word": "abjure"
+        }
+      ]
+    },
+    {
+      "id": "eq-0484",
+      "page": 50,
+      "printedPage": 49,
+      "row": 4,
+      "meaning": "不矛盾的",
+      "words": [
+        {
+          "word": "not antithetical to"
+        },
+        {
+          "word": "not opposed to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0485",
+      "page": 50,
+      "printedPage": 49,
+      "row": 5,
+      "meaning": "取代",
+      "words": [
+        {
+          "word": "displace"
+        },
+        {
+          "word": "supplant"
+        }
+      ]
+    },
+    {
+      "id": "eq-0486",
+      "page": 50,
+      "printedPage": 49,
+      "row": 6,
+      "meaning": "陈腐的",
+      "words": [
+        {
+          "word": "hackneyed"
+        },
+        {
+          "word": "pedestrian"
+        }
+      ]
+    },
+    {
+      "id": "eq-0487",
+      "page": 50,
+      "printedPage": 49,
+      "row": 7,
+      "meaning": "相称的，适合的",
+      "words": [
+        {
+          "word": "commensurate with"
+        },
+        {
+          "word": "appropriate for"
+        }
+      ]
+    },
+    {
+      "id": "eq-0488",
+      "page": 50,
+      "printedPage": 49,
+      "row": 8,
+      "meaning": "可自行决定的",
+      "words": [
+        {
+          "word": "discretionary"
+        },
+        {
+          "word": "optional"
+        }
+      ]
+    },
+    {
+      "id": "eq-0489",
+      "page": 50,
+      "printedPage": 49,
+      "row": 9,
+      "meaning": "持续存在",
+      "words": [
+        {
+          "word": "endures"
+        },
+        {
+          "word": "persists"
+        }
+      ]
+    },
+    {
+      "id": "eq-0490",
+      "page": 50,
+      "printedPage": 49,
+      "row": 10,
+      "meaning": "辅助的",
+      "words": [
+        {
+          "word": "ancillary to"
+        },
+        {
+          "word": "subsidiary to"
+        }
+      ]
+    },
+    {
+      "id": "eq-0491",
+      "page": 51,
+      "printedPage": 50,
+      "row": 1,
+      "meaning": "尖刻的",
+      "words": [
+        {
+          "word": "scathing"
+        },
+        {
+          "word": "lacerating"
+        }
+      ]
+    },
+    {
+      "id": "eq-0492",
+      "page": 51,
+      "printedPage": 50,
+      "row": 2,
+      "meaning": "有先见之明的",
+      "words": [
+        {
+          "word": "prescient"
+        },
+        {
+          "word": "foresighted"
+        }
+      ]
+    },
+    {
+      "id": "eq-0493",
+      "page": 51,
+      "printedPage": 50,
+      "row": 3,
+      "meaning": "质疑",
+      "words": [
+        {
+          "word": "impugn"
+        },
+        {
+          "word": "dispute"
+        }
+      ]
+    },
+    {
+      "id": "eq-0494",
+      "page": 51,
+      "printedPage": 50,
+      "row": 4,
+      "meaning": "避开",
+      "words": [
+        {
+          "word": "eschew"
+        },
+        {
+          "word": "avoid"
+        }
+      ]
+    },
+    {
+      "id": "eq-0495",
+      "page": 51,
+      "printedPage": 50,
+      "row": 5,
+      "meaning": "排除，使无效",
+      "words": [
+        {
+          "word": "precluded"
+        },
+        {
+          "word": "invalidated"
+        }
+      ]
+    },
+    {
+      "id": "eq-0496",
+      "page": 51,
+      "printedPage": 50,
+      "row": 6,
+      "meaning": "尊敬，崇敬",
+      "words": [
+        {
+          "word": "venerating"
+        },
+        {
+          "word": "exalting"
+        }
+      ]
+    },
+    {
+      "id": "eq-0497",
+      "page": 51,
+      "printedPage": 50,
+      "row": 7,
+      "meaning": "航海的",
+      "words": [
+        {
+          "word": "nautical"
+        },
+        {
+          "word": "maritime"
+        }
+      ]
+    },
+    {
+      "id": "eq-0498",
+      "page": 51,
+      "printedPage": 50,
+      "row": 8,
+      "meaning": "混乱的",
+      "words": [
+        {
+          "word": "muddled"
+        },
+        {
+          "word": "turbid"
+        }
+      ]
+    },
+    {
+      "id": "eq-0499",
+      "page": 51,
+      "printedPage": 50,
+      "row": 9,
+      "meaning": "神秘难解",
+      "words": [
+        {
+          "word": "mythical"
+        },
+        {
+          "word": "enigmatic"
+        }
+      ]
+    },
+    {
+      "id": "eq-0500",
+      "page": 51,
+      "printedPage": 50,
+      "row": 10,
+      "meaning": "难以理解",
+      "words": [
+        {
+          "word": "enigmatic"
+        },
+        {
+          "word": "inscrutable"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "source": "materials\\vocabulary\\学而思GRE高频六选二等价1000词（2026版）.pdf",
+  "sourceSHA256": "9f7b2e91a3215f8aa74a54bd8aac06685ffd2509c5fb36d1f345a1af18f42a94",
+  "sourcePages": 51,
+  "textPages": 0,
+  "tablePages": 50,
+  "groupsPerPage": 10,
+  "groups": 500,
+  "eligibleGroups": 497,
+  "wordOccurrences": 1000,
+  "uniqueTerms": 881,
+  "method": "原生页图；Windows OCR en-US英文列 + zh-Hans-CN中文列；按每行频次标签定位，非固定行高。",
+  "unresolvedRows": [],
+  "visualTranscriptionRepairs": [
+    {
+      "page": 4,
+      "row": 8,
+      "field": "meaning",
+      "ocr": "以．“为基础",
+      "sourceReading": "以……为基础"
+    },
+    {
+      "page": 7,
+      "row": 8,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "倾向"
+    },
+    {
+      "page": 10,
+      "row": 7,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "不一致"
+    },
+    {
+      "page": 12,
+      "row": 3,
+      "field": "meaning",
+      "ocr": "愤世俗的",
+      "sourceReading": "愤世嫉俗的"
+    },
+    {
+      "page": 13,
+      "row": 9,
+      "field": "words",
+      "ocr": [
+        "feigned",
+        "false g false"
+      ],
+      "sourceReading": [
+        "feigned",
+        "false"
+      ],
+      "note": "原页同一行重复排印已列出的词，保留两个不同词。"
+    },
+    {
+      "page": 15,
+      "row": 1,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "称赞"
+    },
+    {
+      "page": 16,
+      "row": 2,
+      "field": "meaning",
+      "ocr": "与“．“．不相容",
+      "sourceReading": "与……不相容"
+    },
+    {
+      "page": 17,
+      "row": 4,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "取代"
+    },
+    {
+      "page": 18,
+      "row": 7,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "让与"
+    },
+    {
+      "page": 18,
+      "row": 10,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "与……一致"
+    },
+    {
+      "page": 23,
+      "row": 7,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "简洁"
+    },
+    {
+      "page": 27,
+      "row": 2,
+      "field": "words",
+      "ocr": [
+        "endemic",
+        "native",
+        "native"
+      ],
+      "sourceReading": [
+        "endemic",
+        "native"
+      ],
+      "note": "原页同一行重复排印已列出的词，保留两个不同词。"
+    },
+    {
+      "page": 29,
+      "row": 9,
+      "field": "words",
+      "ocr": [
+        "allay",
+        "palliate",
+        "g allav"
+      ],
+      "sourceReading": [
+        "allay",
+        "palliate"
+      ],
+      "note": "原页同一行重复排印已列出的词，保留两个不同词。"
+    },
+    {
+      "page": 38,
+      "row": 6,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "扩散"
+    },
+    {
+      "page": 39,
+      "row": 1,
+      "field": "meaning",
+      "ocr": "与““．相矛盾",
+      "sourceReading": "与……相矛盾"
+    },
+    {
+      "page": 45,
+      "row": 1,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "融合"
+    },
+    {
+      "page": 45,
+      "row": 2,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "复兴"
+    },
+    {
+      "page": 45,
+      "row": 3,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "不一致"
+    },
+    {
+      "page": 45,
+      "row": 4,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "让与"
+    },
+    {
+      "page": 45,
+      "row": 9,
+      "field": "meaning",
+      "ocr": "受．“影响",
+      "sourceReading": "受……影响"
+    },
+    {
+      "page": 47,
+      "row": 1,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "称赞"
+    },
+    {
+      "page": 48,
+      "row": 7,
+      "field": "meaning",
+      "ocr": "",
+      "sourceReading": "唯一的"
+    },
+    {
+      "page": 50,
+      "row": 7,
+      "field": "meaning",
+      "ocr": "相称的，适",
+      "sourceReading": "相称的，适合的"
+    },
+    {
+      "page": 51,
+      "row": 5,
+      "field": "meaning",
+      "ocr": "排除，使无",
+      "sourceReading": "排除，使无效"
+    }
+  ],
+  "sourceNotes": [
+    {
+      "groupId": "eq-0013",
+      "page": 3,
+      "row": 3,
+      "note": "原表印作 trivial，配套中文使用名词义；保留原词形，请结合原页核对。"
+    },
+    {
+      "groupId": "eq-0396",
+      "page": 41,
+      "row": 6,
+      "note": "原表中文栏印作“促进”，右侧例句使用收养幼崽的语境；保留中文栏并提示词义疑点。"
+    },
+    {
+      "groupId": "eq-0470",
+      "page": 48,
+      "row": 10,
+      "note": "原表印作 foreswearing，拼写待核对；未自动替换为其他词形。"
+    }
+  ],
+  "visualReview": [
+    "全部解析异常格逐一目视原图",
+    "PDF 32–51页共200组由两位独立审阅者逐条比对",
+    "前中后三段完整页抽样，核对长短语、跨行、底部词条和源文重复排印"
+  ]
+}

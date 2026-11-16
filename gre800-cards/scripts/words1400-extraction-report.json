@@ -1,0 +1,1430 @@
+{
+  "source": "materials/vocabulary/学而思GRE急救1400词2026版.pdf",
+  "sourceSha256": "54c146ca8962d02c939a71ba027b4a05edca72480f61d045c1730d88c267df3d",
+  "extractedAt": "2026-11-13T07:00:15.158146+00:00",
+  "pdfPages": 282,
+  "contentPages": 280,
+  "coverPages": [
+    1,
+    2
+  ],
+  "wordCount": 1400,
+  "uniqueHeadwords": 1400,
+  "definitionCount": 1892,
+  "mnemonicCount": 1393,
+  "mnemonicsMissingInSource": [
+    {
+      "word": "self-aggrandizing",
+      "page": 59
+    },
+    {
+      "word": "long-winded",
+      "page": 125
+    },
+    {
+      "word": "cliché",
+      "page": 165
+    },
+    {
+      "word": "self-serving",
+      "page": 218
+    },
+    {
+      "word": "ill-advised",
+      "page": 223
+    },
+    {
+      "word": "self-defeating",
+      "page": 238
+    },
+    {
+      "word": "high-minded",
+      "page": 269
+    }
+  ],
+  "relatedWordSections": 999,
+  "phoneticsMissingInSource": [
+    {
+      "word": "anticipate",
+      "page": 8
+    },
+    {
+      "word": "impede",
+      "page": 9
+    },
+    {
+      "word": "invalidate",
+      "page": 14
+    },
+    {
+      "word": "subvert",
+      "page": 24
+    },
+    {
+      "word": "sustain",
+      "page": 25
+    },
+    {
+      "word": "prescient",
+      "page": 28
+    },
+    {
+      "word": "naiveté",
+      "page": 52
+    },
+    {
+      "word": "self-aggrandizing",
+      "page": 59
+    },
+    {
+      "word": "hamper",
+      "page": 82
+    },
+    {
+      "word": "secretive",
+      "page": 101
+    },
+    {
+      "word": "unsentimental",
+      "page": 103
+    },
+    {
+      "word": "probity",
+      "page": 114
+    },
+    {
+      "word": "taint",
+      "page": 130
+    },
+    {
+      "word": "cliché",
+      "page": 165
+    },
+    {
+      "word": "atypical",
+      "page": 166
+    },
+    {
+      "word": "nondescript",
+      "page": 170
+    },
+    {
+      "word": "spur",
+      "page": 171
+    },
+    {
+      "word": "scrutinized",
+      "page": 177
+    },
+    {
+      "word": "attributable",
+      "page": 178
+    },
+    {
+      "word": "admitedly",
+      "page": 179
+    },
+    {
+      "word": "transgressed",
+      "page": 181
+    },
+    {
+      "word": "troubled",
+      "page": 187
+    },
+    {
+      "word": "usage",
+      "page": 187
+    },
+    {
+      "word": "quiescent",
+      "page": 191
+    },
+    {
+      "word": "devastating",
+      "page": 196
+    },
+    {
+      "word": "prototype",
+      "page": 212
+    },
+    {
+      "word": "inveterate",
+      "page": 224
+    },
+    {
+      "word": "precious",
+      "page": 229
+    },
+    {
+      "word": "evocatively",
+      "page": 232
+    },
+    {
+      "word": "oscillate",
+      "page": 233
+    },
+    {
+      "word": "sensationalized",
+      "page": 234
+    },
+    {
+      "word": "involved",
+      "page": 241
+    },
+    {
+      "word": "undetectable",
+      "page": 251
+    },
+    {
+      "word": "untethered",
+      "page": 258
+    },
+    {
+      "word": "halted",
+      "page": 260
+    },
+    {
+      "word": "constricted",
+      "page": 262
+    },
+    {
+      "word": "forethink",
+      "page": 266
+    },
+    {
+      "word": "polarize",
+      "page": 267
+    },
+    {
+      "word": "plethora",
+      "page": 278
+    },
+    {
+      "word": "unesteemed",
+      "page": 278
+    },
+    {
+      "word": "quackery",
+      "page": 281
+    }
+  ],
+  "englishDefinitionsMissingInSource": [
+    {
+      "word": "appeal",
+      "page": 24,
+      "sourceLabel": "特殊考法1"
+    },
+    {
+      "word": "revise",
+      "page": 120,
+      "sourceLabel": "特殊考法1"
+    }
+  ],
+  "wordsPerPage": [
+    0,
+    0,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "wordsPerList": {
+    "1": 100,
+    "2": 100,
+    "3": 100,
+    "4": 100,
+    "5": 100,
+    "6": 100,
+    "7": 100,
+    "8": 100,
+    "9": 100,
+    "10": 100,
+    "11": 100,
+    "12": 100,
+    "13": 100,
+    "14": 100
+  },
+  "units": [
+    {
+      "list": 1,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 1,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 1,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 1,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 1,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 1,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 1,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 1,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 1,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 1,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 2,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 2,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 2,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 2,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 2,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 2,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 2,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 2,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 2,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 2,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 3,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 3,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 3,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 3,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 3,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 3,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 3,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 3,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 3,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 3,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 4,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 4,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 4,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 4,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 4,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 4,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 4,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 4,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 4,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 4,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 5,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 5,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 5,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 5,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 5,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 5,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 5,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 5,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 5,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 5,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 6,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 6,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 6,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 6,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 6,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 6,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 6,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 6,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 6,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 6,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 7,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 7,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 7,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 7,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 7,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 7,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 7,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 7,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 7,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 7,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 8,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 8,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 8,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 8,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 8,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 8,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 8,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 8,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 8,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 8,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 9,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 9,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 9,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 9,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 9,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 9,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 9,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 9,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 9,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 9,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 10,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 10,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 10,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 10,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 10,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 10,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 10,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 10,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 10,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 10,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 11,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 11,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 11,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 11,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 11,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 11,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 11,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 11,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 11,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 11,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 12,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 12,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 12,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 12,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 12,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 12,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 12,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 12,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 12,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 12,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 13,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 13,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 13,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 13,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 13,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 13,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 13,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 13,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 13,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 13,
+      "unit": 10,
+      "words": 10
+    },
+    {
+      "list": 14,
+      "unit": 1,
+      "words": 10
+    },
+    {
+      "list": 14,
+      "unit": 2,
+      "words": 10
+    },
+    {
+      "list": 14,
+      "unit": 3,
+      "words": 10
+    },
+    {
+      "list": 14,
+      "unit": 4,
+      "words": 10
+    },
+    {
+      "list": 14,
+      "unit": 5,
+      "words": 10
+    },
+    {
+      "list": 14,
+      "unit": 6,
+      "words": 10
+    },
+    {
+      "list": 14,
+      "unit": 7,
+      "words": 10
+    },
+    {
+      "list": 14,
+      "unit": 8,
+      "words": 10
+    },
+    {
+      "list": 14,
+      "unit": 9,
+      "words": 10
+    },
+    {
+      "list": 14,
+      "unit": 10,
+      "words": 10
+    }
+  ],
+  "normalizations": [
+    "词性重复句点（如 adj..）统一为 adj.；中文、英文使用原PDF字体/颜色边界拆分。",
+    "仅连接排版换行；所有考法、助记、相关词原文均保留，不生成释义、例句或近义词。",
+    "标题中的考场累计出现次数仅以 sourceFrequency 记录为原资料声明，不作独立核验。"
+  ],
+  "sourceNotes": [
+    {
+      "word": "original",
+      "page": 6,
+      "sourceLabels": [
+        "考法2",
+        "考法1"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "appeal",
+      "page": 24,
+      "field": "特殊考法1",
+      "note": "原书重复标注词性，实际中文含义位于小字栏；合并重复词性并保留原中文，不补英文。"
+    },
+    {
+      "word": "appeal",
+      "page": 24,
+      "sourceLabels": [
+        "考法1",
+        "考法2",
+        "考法3",
+        "特殊考法1"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "mundane",
+      "page": 26,
+      "sourceLabels": [
+        "考法2",
+        "考法1"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "appreciate",
+      "page": 27,
+      "sourceLabels": [
+        "考法3",
+        "考法1",
+        "考法2",
+        "考法4"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "concede",
+      "page": 113,
+      "sourceLabels": [
+        "考法2",
+        "考法1"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "substance",
+      "page": 119,
+      "sourceLabels": [
+        "考法2",
+        "考法3",
+        "特殊考法1"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "revise",
+      "page": 120,
+      "field": "特殊考法1",
+      "note": "原书重复标注词性，实际中文含义位于小字栏；合并重复词性并保留原中文，不补英文。"
+    },
+    {
+      "word": "revise",
+      "page": 120,
+      "sourceLabels": [
+        "考法1",
+        "考法2",
+        "特殊考法1"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "genius",
+      "page": 126,
+      "sourceLabels": [
+        "考法2"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "enterprise",
+      "page": 146,
+      "sourceLabels": [
+        "考法2",
+        "考法3",
+        "考法1"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "contract",
+      "page": 156,
+      "sourceLabels": [
+        "考法2",
+        "考法1",
+        "考法3"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "buoy",
+      "page": 156,
+      "sourceLabels": [
+        "考法1",
+        "考法3"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "profound",
+      "page": 160,
+      "sourceLabels": [
+        "考法2",
+        "考法1"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "abuse",
+      "page": 162,
+      "sourceLabels": [
+        "考法2",
+        "考法3",
+        "考法1",
+        "考法4"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "admitedly",
+      "page": 179,
+      "note": "原书主词拼写为 admitedly；常见拼写为 admittedly，此处保留原文并标为待核对。"
+    },
+    {
+      "word": "hedge",
+      "page": 181,
+      "sourceLabels": [
+        "考法2",
+        "考法1",
+        "考法3"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "abet",
+      "page": 189,
+      "sourceLabels": [
+        "考法2",
+        "考法1"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "grant",
+      "page": 210,
+      "field": "考法3",
+      "note": "原书短语及中文释义使用通常中英释义的相反字体，按实际语言归入对应字段。"
+    },
+    {
+      "word": "childish",
+      "page": 213,
+      "sourceLabels": [
+        "考法2"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "ape",
+      "page": 229,
+      "sourceLabels": [
+        "考法2"
+      ],
+      "note": "保留原书考法编号及顺序，不补缺号、不重编号。"
+    },
+    {
+      "word": "constricted",
+      "page": 262,
+      "field": "考法1",
+      "note": "原书英文释义末尾混入汉字“紧”，保留原文并标为待核对。"
+    }
+  ],
+  "validation": {
+    "headwordOrderMatchesPlainText": true,
+    "definitionCountMatchesPlainText": true,
+    "all140ListUnitsHave10Words": true,
+    "headerFooterAndReviewMarksExcluded": true,
+    "replacementCharacters": 0
+  }
+}

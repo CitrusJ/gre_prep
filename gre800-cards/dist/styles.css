@@ -66,7 +66,11 @@ h1, h2, h3, h4 { margin: 0; }
 .brand-copy { display: flex; flex-direction: column; gap: 1px; }
 .brand-copy strong { font-size: 25px; font-weight: 500; letter-spacing: 4px; line-height: 1.25; }
 .brand-copy > span { color: #adc1b4; font-size: 9px; letter-spacing: 3.3px; }
-.sidebar-caption { margin: 21px 0 42px; color: #9bb5a7; font-size: 11px; letter-spacing: 1px; }
+.sidebar-caption { margin: 21px 0 22px; color: #9bb5a7; font-size: 11px; letter-spacing: 1px; }
+.bank-picker { display: grid; gap: 8px; margin-bottom: 23px; min-width: 0; }
+.bank-picker label { color: #b7c9be; font-size: 11px; }
+.bank-picker select { width: 100%; min-width: 0; min-height: 40px; padding: 7px 9px; border: 1px solid #648873; border-radius: 6px; background: #244b3e; color: #fffefa; font-size: 12px; }
+.bank-picker option { background: #fffefa; color: #173f35; }
 .nav-caption { margin: 0 12px 12px; color: #7b9c8b; font-size: 10px; letter-spacing: 2px; }
 .nav-list { display: flex; flex-direction: column; gap: 8px; }
 .nav-item { display: flex; align-items: center; gap: 13px; width: 100%; min-height: 48px; padding: 12px 14px; border: 1px solid transparent; border-radius: 7px; background: transparent; color: #b7c9be; text-align: left; font-size: 13px; font-weight: 500; transition: color .15s, background .15s; }
@@ -383,6 +387,9 @@ h1, h2, h3, h4 { margin: 0; }
 
 /* On mobile the navigation becomes a compact, sticky top bar. */
 @media (max-width: 720px) {
+  .bank-picker { display: flex; align-items: center; gap: 12px; margin: 2px 0; }
+  .bank-picker label { flex-shrink: 0; }
+  .bank-picker select { width: auto; flex: 1; min-height: 38px; }
   :root { --sidebar-width: 0px; }
   .sidebar { position: sticky; inset: 0 0 auto; display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 16px; width: 100%; min-height: 73px; padding: 12px 20px; overflow: visible; box-shadow: 0 2px 12px #173f3510; }
   .brand { gap: 8px; }
@@ -566,6 +573,8 @@ summary:focus-visible { outline: 2px solid #aa7b38; }
 .definition-body > .quality-note { margin-top: 13px; }
 .relation-note { margin-top: 14px; color: #7d8b71; font-size: 11px; line-height: 1.85; overflow-wrap: anywhere; }
 .entry-source { margin-top: 13px; color: #839079; font-size: 10px; line-height: 1.9; overflow-wrap: anywhere; }
+.entry-phonetic { margin-top: 18px; color: var(--muted); font-size: 13px; overflow-wrap: anywhere; }
+.entry-mnemonic p, .entry-related p { white-space: pre-wrap; }
 .review-schedule { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 5px 18px; margin-top: 20px; padding: 13px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--sage-dark); font-size: 11px; line-height: 1.8; }
 
 /* Recall and relation prompts use the same central card with room for sentences. */

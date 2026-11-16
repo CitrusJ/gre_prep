@@ -1404,6 +1404,34 @@
       ],
       "source_ids": [],
       "archives": []
+    },
+    {
+      "path": "materials/vocabulary/学而思GRE急救1400词2026版.pdf",
+      "sha256": "54c146ca8962d02c939a71ba027b4a05edca72480f61d045c1730d88c267df3d",
+      "bytes": 20385858,
+      "title": "学而思GRE急救1400词2026版",
+      "category": "vocabulary",
+      "aliases": [
+        "学而思GRE急救1400词2026版.pdf"
+      ],
+      "source_ids": [
+        "vocab-xueersi1400-2026"
+      ],
+      "archives": []
+    },
+    {
+      "path": "materials/vocabulary/学而思GRE高频六选二等价1000词（2026版）.pdf",
+      "sha256": "9f7b2e91a3215f8aa74a54bd8aac06685ffd2509c5fb36d1f345a1af18f42a94",
+      "bytes": 38750333,
+      "title": "学而思GRE高频六选二等价1000词（2026版）",
+      "category": "vocabulary",
+      "aliases": [
+        "学而思GRE高频六选二等价1000词（2026版）.pdf"
+      ],
+      "source_ids": [
+        "vocab-xueersi-se1000-2026"
+      ],
+      "archives": []
     }
   ],
   "path_aliases": {
@@ -1583,9 +1611,9 @@
     "扫码可免费听大三千”精选1500词视频精讲（音频版）.png": "materials/vocabulary/扫码可免费听大三千”精选1500词视频精讲（音频版）.png"
   },
   "summary": {
-    "documents": 78,
+    "documents": 80,
     "original_file_copies": 163,
-    "bytes": 434857896,
+    "bytes": 493994087,
     "question_count": 10348,
     "new_archive_vocabulary_documents": 4
   }

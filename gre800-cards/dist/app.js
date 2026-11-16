@@ -1,15 +1,16 @@
 (() => {
   'use strict';
   const app = document.getElementById('app');
-  const words = (window.GRE_WORDS || []).map(w => ({ ...w, id: String(w.id) }));
+  const bank = window.GREWordBanks?.current || { id: '800', title: 'GRE800词', label: 'GRE 800 词', storageKey: 'gre800-word-studio-v1', words: window.GRE_WORDS || [] };
+  const words = bank.words.map(w => ({ ...w, id: String(w.id) }));
   const L = window.GRELogic;
   const P = window.GREProgress, X = window.GRELexicon, V = window.GREViews;
   if (words.length < 4 || !L || !P || !X || !V) {
-    app.innerHTML = '<div class="empty-state"><h1>词库暂时没有加载成功</h1><p>请刷新页面，或确认 words.js 与网页放在同一文件夹。</p></div>';
+    app.innerHTML = '<div class="empty-state"><h1>词库暂时没有加载成功</h1><p>请刷新页面，或确认词库文件与网页放在同一文件夹。</p></div>';
     return;
   }
   const byId = new Map(words.map(w => [w.id, w]));
-  const KEY = 'gre800-word-studio-v1';
+  const KEY = bank.storageKey;
   const lexicon = X.buildIndex(words);
   const MODE_NAMES = { 'en-cn': '英文 → 中文', 'cn-en': '中文 → 英文', 'def-en': '英文释义 → 单词', 'syn-word': '单词关联匹配', 'syn-cn': '中文反向关联', 'syn-odd': '异类词识别' };
   const banks = {};
@@ -25,7 +26,7 @@
   };
   let storageOK = true;
   let maySave = true, pendingImport = null, importName = '';
-  let state = { version: 2, records: {}, history: [], basic: null, test: null, training: null, selfCheck: null, specialReview: null, specialList: {}, view: 'basic', reviewOnly: false, daily: {}, dailyStartedAt: Date.now(), settings: { examDate: '', detailsExpanded: true } };
+  let state = { version: 2, bankId: bank.id, records: {}, history: [], basic: null, test: null, training: null, selfCheck: null, specialReview: null, specialList: {}, tableRecognition: {}, view: bank.id === '1400' ? 'word-table' : 'basic', reviewOnly: false, daily: {}, dailyStartedAt: Date.now(), settings: { examDate: '', detailsExpanded: true } };
   function validSession(s, test) {
     if (!s || !Array.isArray(s.queue) || !s.queue.length || !s.queue.every(id => byId.has(id)) || new Set(s.queue).size !== s.queue.length || !Number.isInteger(s.index) || s.index < 0 || s.index > s.queue.length) return false;
     if (!Array.isArray(s.answers) || s.answers.length > s.queue.length || !['prompt', 'choices', 'answer', 'done'].includes(s.stage) || !Number.isFinite(s.startedAt)) return false;
@@ -56,7 +57,7 @@
       state.basic = validSession(state.basic, false) ? state.basic : null;
       state.test = validSession(state.test, true) ? state.test : null;
       state.training = validSession(state.training, true) ? state.training : null;
-      if (!['basic', 'test', 'progress', 'recall', 'synonyms', 'quality', 'exam', 'self-check', 'special-review', 'special-study'].includes(state.view)) state.view = 'basic';
+      if (!['basic', 'test', 'progress', 'recall', 'synonyms', 'quality', 'exam', 'self-check', 'special-review', 'special-study', 'pairing', 'word-table'].includes(state.view)) state.view = bank.id === '1400' ? 'word-table' : 'basic';
     }
   } catch (_) { storageOK = false; maySave = false; }
   function save() {
@@ -79,12 +80,15 @@
   }
   const header = (eyebrow, title, description, action = '') => `<header class="page-header"><div><div class="eyebrow">${eyebrow}</div><h1 class="page-title" tabindex="-1">${title}</h1><p class="page-description">${description}</p></div>${action ? `<div class="header-actions">${action}</div>` : ''}</header>`;
   function updateSidebar() {
-    document.querySelectorAll('[data-nav]').forEach(btn => {
+    document.querySelectorAll('.nav-list [data-nav]').forEach(btn => {
+      btn.hidden = bank.id === '1400' ? ['self-check', 'basic', 'test', 'recall', 'synonyms', 'exam'].includes(btn.dataset.nav) : btn.dataset.nav === 'word-table';
       const active = btn.dataset.nav === (state.view === 'special-study' ? 'special-review' : state.view);
       btn.classList.toggle('active', active);
       if (active) btn.setAttribute('aria-current', 'page'); else btn.removeAttribute('aria-current');
     });
-    const stats = summary();
+    const stats = bank.id === '1400' ? { seen: specialWords().length, mastered: words.length } : summary();
+    document.getElementById('side-progress-label').textContent = bank.id === '1400' ? '特殊待复习' : '词库探索';
+    document.getElementById('side-mastered-label').textContent = bank.id === '1400' ? '全词库' : '已掌握';
     const progress = document.getElementById('side-progress');
     if (progress) progress.textContent = `${stats.seen} / ${words.length}`;
     const bar = document.getElementById('side-progress-bar');
@@ -102,7 +106,7 @@
       <div class="stat-row"><span>${testing ? '尚未完成' : '待复习'}</span><strong>${testing ? session.queue.length - count : s.review}<small> ${testing ? '题' : '词'}</small></strong></div>
       <div class="card-divider"></div><div class="section-kicker">${testing ? '计分规则' : '今天的学习方法'}</div>
       <p class="panel-copy">${testing ? '选对得 1 分，选错或“不认识”得 0 分。每个单词只出现一次，最后一起回顾。' : '先在脑海里回忆词义，再选择熟悉程度。诚实的“模糊”，比碰巧选对更有用。'}</p>
-      <div class="note-card"><span class="section-kicker">你的词库</span><p>《GRE800词 》</p><span class="muted">800 个单词 · 8 个 List<br>释义摘自你的 PDF</span></div></aside>`;
+      <div class="note-card"><span class="section-kicker">你的词库</span><p>《${esc(bank.title)}》</p><span class="muted">${words.length} 个单词 · ${new Set(words.map(w => w.group)).size} 个 List<br>释义摘自你的 PDF</span></div></aside>`;
   }
   function confidenceButtons() {
     return `<div class="confidence-grid">
@@ -148,7 +152,7 @@
     app.innerHTML = `${top}${testing ? `<div class="test-progress"><div class="progress-value"><span>本轮进度</span><strong>${session.answers.length} / ${session.queue.length}</strong></div><div class="progress-track"><div class="progress-fill" style="width:${percent}%"></div></div></div>` : ''}<div class="study-layout"><div class="study-main"><section class="study-card"><div class="card-topline"><span class="mode-label"><span class="status-dot"></span>${training ? MODE_NAMES[modeOf(session)] : testing ? '测试模式' : state.reviewOnly ? '优先复习' : '基础模式'}</span><span class="muted">${String(session.index + 1).padStart(2, '0')} / ${session.queue.length}</span></div><div class="word-display"><h2 class="${reverse && !reveal ? 'recall-prompt' : 'word'}" ${modeOf(session) !== 'cn-en' && modeOf(session) !== 'syn-cn' ? 'lang="en"' : ''}>${esc(prompt)}</h2>${reveal ? `<button class="button ghost small pronounce-button" data-action="pronounce" aria-label="朗读 ${esc(word.word)}">${icon('sound', 18)} 听发音</button>` : `<span class="word-hint">${question ? esc(question.context) : '先回忆，再揭晓'}</span>`}</div>${interaction}</section><div class="study-footer"><span>${testing ? '这一轮，每个词条都只出现一次' : '到期与易忘词优先 · 一轮内不重复'}</span><span class="keyboard-tip">${session.stage === 'prompt' ? '按 1 / 2 / 3 快速选择' : session.stage === 'choices' ? '按 1 / 2 / 3 / 4 选择答案' : '按空格键继续'}</span></div></div>${sidePanel(session, testing)}</div>`;
   }
   function renderSetup() {
-    app.innerHTML = header('PUT YOUR MEMORY TO THE TEST', '给记忆，一点小挑战。', '选一个适合现在的题量，看看哪些词已经真正记住。') + `<div class="study-layout"><section class="test-setup"><div class="section-kicker">测试设置</div><h2 class="section-heading">这次想挑战多少词？</h2><p class="muted">从全部 ${words.length} 个词中随机抽取，不重复出题。</p><form id="test-form"><label class="field-label" for="question-count">题目数量</label><div class="preset-row">${[10, 20, 50, 100].map(n => `<button class="preset-button ${n === 20 ? 'active' : ''}" type="button" data-count="${n}">${n} 词</button>`).join('')}</div><div class="number-field"><input class="number-input" id="question-count" name="count" type="number" min="1" max="${words.length}" step="1" value="20" required aria-describedby="count-help count-error"><span class="muted">词</span></div><p class="muted" id="count-help">也可以自由输入 1–${words.length} 之间的整数。</p><p class="form-error" id="count-error" role="alert"></p><div class="card-divider"></div><div class="test-rules"><p>${icon('check', 17)} 认识 / 模糊 → 四选一验证词义</p><p>${icon('book', 17)} 不认识 → 直接学习答案，本题记 0 分</p><p>${icon('leaf', 17)} 完成后查看得分，集中复习待加强的词</p></div><button type="submit" class="button primary start-test">开始测试 ${icon('arrow')}</button></form></section><aside class="side-panel"><span class="section-kicker">给专注留一点空间</span><h2 class="section-heading">不必一次完成<br>全部 800 个词。</h2><p class="panel-copy">10 个词也很好。让每一次小练习，都成为下一次更确定的记忆。</p><div class="note-card"><p>进度会自动保存</p><span class="muted">切换模式或刷新页面后，仍可以继续这轮测试。</span></div></aside></div>`;
+    app.innerHTML = header('PUT YOUR MEMORY TO THE TEST', '给记忆，一点小挑战。', '选一个适合现在的题量，看看哪些词已经真正记住。') + `<div class="study-layout"><section class="test-setup"><div class="section-kicker">测试设置</div><h2 class="section-heading">这次想挑战多少词？</h2><p class="muted">从全部 ${words.length} 个词中随机抽取，不重复出题。</p><form id="test-form"><label class="field-label" for="question-count">题目数量</label><div class="preset-row">${[10, 20, 50, 100].map(n => `<button class="preset-button ${n === 20 ? 'active' : ''}" type="button" data-count="${n}">${n} 词</button>`).join('')}</div><div class="number-field"><input class="number-input" id="question-count" name="count" type="number" min="1" max="${words.length}" step="1" value="20" required aria-describedby="count-help count-error"><span class="muted">词</span></div><p class="muted" id="count-help">也可以自由输入 1–${words.length} 之间的整数。</p><p class="form-error" id="count-error" role="alert"></p><div class="card-divider"></div><div class="test-rules"><p>${icon('check', 17)} 认识 / 模糊 → 四选一验证词义</p><p>${icon('book', 17)} 不认识 → 直接学习答案，本题记 0 分</p><p>${icon('leaf', 17)} 完成后查看得分，集中复习待加强的词</p></div><button type="submit" class="button primary start-test">开始测试 ${icon('arrow')}</button></form></section><aside class="side-panel"><span class="section-kicker">给专注留一点空间</span><h2 class="section-heading">不必一次完成<br>全部 ${words.length} 个词。</h2><p class="panel-copy">10 个词也很好。让每一次小练习，都成为下一次更确定的记忆。</p><div class="note-card"><p>进度会自动保存</p><span class="muted">切换模式或刷新页面后，仍可以继续这轮测试。</span></div></aside></div>`;
   }
   function trainingPool(mode) {
     if (!mode.startsWith('syn-')) return words.filter(w => mode !== 'def-en' || w.definitions.some(d => d.english));
@@ -161,7 +165,11 @@
     const modes = synonym ? ['syn-word', 'syn-cn', 'syn-odd'] : ['cn-en', 'def-en'];
     const selected = modes.includes(state.settings[synonym ? 'synonymMode' : 'recallMode']) ? state.settings[synonym ? 'synonymMode' : 'recallMode'] : modes[0];
     const max = trainingPool(selected).length;
-    app.innerHTML = header(synonym ? 'WORDS IN RELATION' : 'RECALL IN REVERSE', synonym ? '联想有依据，词义有边界。' : '换个方向，再记住一次。', synonym ? '围绕原词表的具体考法练习关联，不把近义词当成所有语境下的等价词。' : '从中文或英文释义回忆单词，沿用同一份熟悉程度和复习计划。') + `<div class="study-layout"><section class="test-setup"><h2 class="section-heading">${synonym ? '选择一种关联训练' : '选择回忆方向'}</h2><form id="training-form"><label class="field-label" for="training-mode">训练方式</label><select id="training-mode" class="text-input">${modes.map(mode => `<option value="${mode}" ${mode === selected ? 'selected' : ''}>${MODE_NAMES[mode]}</option>`).join('')}</select><p class="mode-description muted" id="training-help">${trainingDescription(selected, max)}</p><label class="field-label" for="training-count">本轮题数</label><input id="training-count" class="number-input" type="number" min="1" max="${max}" step="1" value="${Math.min(10, max)}" required aria-describedby="training-help"><p class="muted">每轮按词条去重，最多 <span id="training-max">${max}</span> 题。</p><button class="button primary start-test" type="submit" ${max ? '' : 'disabled'}>开始练习 ${icon('arrow')}</button></form>${state.training && state.training.stage !== 'done' ? `<div class="resume-panel"><p>已有未完成练习：${MODE_NAMES[modeOf(state.training)]} · ${state.training.answers.length}/${state.training.queue.length}</p><button class="button secondary" data-action="resume-training">继续这轮练习</button></div>` : ''}</section><aside class="side-panel"><h2 class="section-heading">先判断把握，<br>再用选项验证。</h2><p class="panel-copy">“认识”和“模糊”都会进入四选一。“不认识”直接学习完整词条。猜对但不确定，仍会留在待加强队列。</p>${synonym ? '<div class="note-card"><p>原文关联 ≠ 绝对等价</p><span class="muted">只使用 800 词库内、可定位到考法的直接关系。异类题识别的是“未列入本考法的近义词”，不据此断言语义无关。</span></div>' : '<div class="note-card"><p>熟悉程度保持一致</p><span class="muted">反向练习与基础模式共用学习记录。连续确认后，复习间隔逐步拉长。</span></div>'}</aside></div>`;
+    if (synonym && !modes.some(mode => trainingPool(mode).length)) {
+      app.innerHTML = header('WORDS IN RELATION', '用等价词，练习三组配对。', '当前背诵词库未列出可用于四选一的直接同义词关系。') + '<section class="overview-card"><h2 class="section-heading">试试新加入的八词配对</h2><p class="muted">每轮八个词，配成三组，留下两个干扰项；词汇来自你新增的六选二等价词表。</p><div class="result-actions"><button class="button primary" data-nav="pairing">进入八词配对 →</button></div></section>';
+      return;
+    }
+    app.innerHTML = header(synonym ? 'WORDS IN RELATION' : 'RECALL IN REVERSE', synonym ? '联想有依据，词义有边界。' : '换个方向，再记住一次。', synonym ? '围绕原词表的具体考法练习关联，不把近义词当成所有语境下的等价词。' : '从中文或英文释义回忆单词，沿用同一份熟悉程度和复习计划。') + `<div class="study-layout"><section class="test-setup"><h2 class="section-heading">${synonym ? '选择一种关联训练' : '选择回忆方向'}</h2><form id="training-form"><label class="field-label" for="training-mode">训练方式</label><select id="training-mode" class="text-input">${modes.map(mode => `<option value="${mode}" ${mode === selected ? 'selected' : ''}>${MODE_NAMES[mode]}</option>`).join('')}</select><p class="mode-description muted" id="training-help">${trainingDescription(selected, max)}</p><label class="field-label" for="training-count">本轮题数</label><input id="training-count" class="number-input" type="number" min="1" max="${max}" step="1" value="${Math.min(10, max)}" required aria-describedby="training-help"><p class="muted">每轮按词条去重，最多 <span id="training-max">${max}</span> 题。</p><button class="button primary start-test" type="submit" ${max ? '' : 'disabled'}>开始练习 ${icon('arrow')}</button></form>${state.training && state.training.stage !== 'done' ? `<div class="resume-panel"><p>已有未完成练习：${MODE_NAMES[modeOf(state.training)]} · ${state.training.answers.length}/${state.training.queue.length}</p><button class="button secondary" data-action="resume-training">继续这轮练习</button></div>` : ''}</section><aside class="side-panel"><h2 class="section-heading">先判断把握，<br>再用选项验证。</h2><p class="panel-copy">“认识”和“模糊”都会进入四选一。“不认识”直接学习完整词条。猜对但不确定，仍会留在待加强队列。</p>${synonym ? '<div class="note-card"><p>原文关联 ≠ 绝对等价</p><span class="muted">只使用当前词库内、可定位到考法的直接关系。异类题识别的是“未列入本考法的近义词”，不据此断言语义无关。</span></div>' : '<div class="note-card"><p>熟悉程度保持一致</p><span class="muted">反向练习与基础模式共用学习记录。连续确认后，复习间隔逐步拉长。</span></div>'}</aside></div>`;
   }
   function trainingDescription(mode, maximum) {
     if (mode === 'syn-odd') return `选出原词表未列入本考法近义词的选项。符合数据条件的词条只有 ${maximum} 个，不额外生成关系凑题。`;
@@ -186,6 +194,9 @@
   }
   function renderProgress() {
     app.innerHTML = header('YOUR WORDS, YOUR PROGRESS', '记忆在这里，慢慢生长。', '保留每一次积累，也给容易遗忘的词多一点时间。') + V.analytics(state, words, P);
+    if (bank.id === '1400') {
+      app.querySelector('.page-header').insertAdjacentHTML('afterend', `<section class="overview-card"><h2 class="section-heading">1400 词特殊待复习</h2><p>已加入 ${specialWords().length} 词 · 全词库 ${words.length} 词</p><p class="muted">点击词表右侧的按钮即可加入或移出特殊待复习。下方测试统计保留此前的作答记录。</p><button type="button" class="button secondary" data-nav="word-table">继续查看词表</button></section>`);
+    }
     const history = state.history.filter(h => h && Number.isFinite(h.finishedAt) && h.total > 0 && Number.isFinite(h.correct));
     if (history.length) app.innerHTML += '<section class="results-section"><h2 class="section-heading">最近的测试与练习</h2><div class="results-list">' + history.slice(0, 20).map(h => '<div class="result-row"><div><strong>' + esc(MODE_NAMES[h.mode] || '词汇测试') + ' · ' + h.total + ' 词</strong><div class="muted">' + V.date(h.finishedAt) + '</div></div><strong>' + Math.round(h.correct / h.total * 100) + ' 分 <span class="muted">· ' + h.correct + '/' + h.total + '</span></strong></div>').join('') + '</div></section>';
     app.innerHTML += '<p class="local-note muted">学习记录仅保存在当前浏览器。建议定期导出；清除浏览器数据会移除本地记录。</p>';
@@ -225,6 +236,7 @@
     app.innerHTML = `${top}<div class="study-layout"><div class="study-main"><section class="study-card"><div class="card-topline"><span class="mode-label"><span class="status-dot"></span>${special ? '特殊待复习 · 自认模式' : '自认模式'}</span><span class="muted">${s.index + 1} / ${s.queue.length}</span></div><div class="self-navigation"><button class="button secondary small" data-action="self-back" ${s.index === 0 ? 'disabled' : ''}>← 上一个单词</button><span class="muted">${s.index < s.answers.length - 1 ? '回看中 · 后续进度已保留' : '按 ← 返回上一词'}</span></div><div class="word-display"><h2 class="word" lang="en">${esc(word.word)}</h2>${reveal ? `<button class="button ghost small pronounce-button" data-action="pronounce" aria-label="朗读 ${esc(word.word)}">${icon('sound', 18)} 听发音</button>` : '<span class="word-hint">给自己几秒，再揭晓答案</span>'}</div>${interaction}</section><div class="study-footer"><span>随机出词 · 一轮内不重复</span><span class="keyboard-tip">${reveal ? '1 / 2 改选 · 空格继续 · S 加入或移除' : '按 1 认识 / 2 不认识'}</span></div></div><aside class="side-panel"><div class="panel-heading">${icon('leaf')}<span>按自己的节奏记住它</span></div><div class="stat-number">${s.answers.length}<span class="count-note"> / ${s.queue.length}</span></div><p class="muted">本轮已回忆的单词</p><div class="mini-progress"><span style="width:${s.answers.length / s.queue.length * 100}%"></span></div><div class="stat-row"><span>特殊待复习</span><strong data-special-count>${specialWords().length}</strong></div><div class="card-divider"></div><p class="panel-copy">不认识的词会自动加入特殊待复习。点错时可直接改选，或返回上一词修改；后续进度仍会保留。</p><div class="note-card"><span class="section-kicker">自己判断，自己选择</span><p>本模式只记录自认结果。</p><span class="muted">自认结果不计入测试正确率或掌握率。收藏的词可以随时移除。</span></div></aside></div>`;
   }
   function renderSpecialList() {
+    if (bank.id === '1400') return render1400Table('special');
     const pool = specialWords();
     reconcileSpecialSession();
     const resumable = state.specialReview && state.specialReview.stage !== 'done';
@@ -265,7 +277,7 @@
     app.querySelector('.self-navigation')?.scrollIntoView({ block: 'nearest', behavior: 'instant' });
   }
   function writeSpecial(id, active) {
-    const updatedAt = Math.max(Date.now(), (state.specialList[id]?.updatedAt || 0) + 1);
+    const updatedAt = Math.min(8640000000000000, Math.max(Date.now(), (state.specialList[id]?.updatedAt || 0) + 1));
     state.specialList[id] = { active, updatedAt };
     return updatedAt;
   }
@@ -276,12 +288,49 @@
     app.querySelector('#self-next-button')?.focus({ preventScroll: true });
     toast(active ? '已加入特殊待复习' : '已移出特殊待复习');
   }
+  let tableController = null;
+  function saveTablePreferences(scope, preferences) {
+    if (!state.settings.table1400 || typeof state.settings.table1400 !== 'object' || Array.isArray(state.settings.table1400)) state.settings.table1400 = {};
+    state.settings.table1400[scope] = { ...preferences };
+    save();
+  }
+  function render1400Table(scope = 'all') {
+    if (!window.GRETable1400) {
+      app.innerHTML = header('WORDS BY EXAM FREQUENCY', '1400 词考频表', '词表模块未能加载，请保留完整应用文件夹后刷新。');
+      return;
+    }
+    tableController = window.GRETable1400.mount({
+      root: app, words, relations: window.GRE1400_RELATIONS, scope,
+      getState: () => state,
+      getPreferences: name => state.settings.table1400?.[name],
+      savePreferences: saveTablePreferences,
+      setSpecial(id, active) {
+        if (!byId.has(id) || typeof active !== 'boolean') return false;
+        writeSpecial(id, active); save(); updateSidebar();
+        return storageOK;
+      }
+    });
+  }
+  function open1400Table(preferences) {
+    if (preferences) saveTablePreferences('all', { ...state.settings.table1400?.all, ...preferences });
+    state.view = 'word-table'; render();
+  }
   function render() {
-    if (state.view === 'self-check' || state.view === 'special-study') renderSelfCheck(state.view === 'special-study');
+    tableController?.destroy(); tableController = null;
+    if (bank.id === '1400') {
+      if (state.view === 'special-study') state.view = 'special-review';
+      else if (['basic', 'test', 'recall', 'synonyms', 'self-check', 'exam'].includes(state.view)) state.view = 'word-table';
+    } else if (state.view === 'word-table') state.view = 'basic';
+    if (state.view === 'word-table') render1400Table();
+    else if (state.view === 'self-check' || state.view === 'special-study') renderSelfCheck(state.view === 'special-study');
     else if (state.view === 'special-review') renderSpecialList();
     else if (state.view === 'progress') renderProgress();
+    else if (state.view === 'pairing') {
+      if (window.GREPairing) window.GREPairing.mount({ root: app });
+      else app.innerHTML = header('MATCH THREE PAIRS', '八词配对', '配对模块未能加载，请保留完整应用文件夹后刷新。');
+    }
     else if (['recall', 'synonyms'].includes(state.view)) renderTraining();
-    else if (state.view === 'quality') app.innerHTML = header('SOURCE & NOTES', '留住原文，看清疑点。', '疑似错误单独标记；所有训练仍来自你的 800 词数据库。') + V.quality(lexicon, words);
+    else if (state.view === 'quality') app.innerHTML = header('SOURCE & NOTES', '留住原文，看清疑点。', `疑似错误单独标记；本页对应《${bank.title}》。`) + V.quality(lexicon, words, bank);
     else if (state.view === 'exam') app.innerHTML = header('GRE PRACTICE MODULES', '为下一步训练，留好位置。', 'TC、SE、RC 各自独立，等待已核验的材料。') + V.exam(state.examModule || 'TC');
     else renderStudy(state.view === 'test');
     updateSidebar(); save();
@@ -334,11 +383,11 @@
     document.body.appendChild(el); setTimeout(() => el.remove(), 3500);
   }
   function exportProgress() {
-    const payload = JSON.stringify(P.exportProgress(state), null, 2);
+    const payload = JSON.stringify({ ...P.exportProgress(state), bankId: bank.id, bankTitle: bank.title }, null, 2);
     const url = URL.createObjectURL(new Blob([payload], { type: 'application/json' }));
     const link = document.createElement('a'); link.href = url;
     const day = new Date().toLocaleDateString('sv-SE');
-    link.download = `gre800-progress-${day}.json`; document.body.appendChild(link); link.click(); link.remove();
+    link.download = `gre${bank.id}-progress-${day}.json`; document.body.appendChild(link); link.click(); link.remove();
     setTimeout(() => URL.revokeObjectURL(url), 30000);
     toast('已导出当前进度，请保留这份备份。');
   }
@@ -352,7 +401,10 @@
     if (!file) return;
     try {
       if (file.size > 4 * 1024 * 1024) throw new Error('文件不能超过 4 MB。');
-      const result = P.validateImport(await file.text(), words, Date.now());
+      const data = JSON.parse(await file.text());
+      const importedBank = data.bankId || data.state?.bankId || '800';
+      if (importedBank !== bank.id) throw new Error(`这份备份属于 ${importedBank} 词库，请先切换到对应词库再导入。`);
+      const result = P.validateImport(data, words, Date.now());
       for (const name of ['basic', 'test', 'training']) if (result.state[name] && !validSession(result.state[name], name !== 'basic')) throw new Error('文件中的未完成练习不完整，原有进度未改动。');
       pendingImport = result.state; importName = file.name;
       document.getElementById('import-dialog')?.remove();
@@ -378,6 +430,10 @@
     }
   }
   function action(name) {
+    if (bank.id === '1400') {
+      if (['special-list', 'start-special-review', 'resume-special-review'].includes(name)) { state.view = 'special-review'; render(); return; }
+      if (['self-check', 'restart-self-check', 'basic', 'all-words', 'review-all', 'review-test', 'review-training', 'review-due', 'new-test', 'new-training', 'resume-training', 'training-settings'].includes(name)) return open1400Table();
+    }
     if (name === 'self-next') return nextSelf();
     if (name === 'self-back') return backSelf();
     if (name === 'toggle-special') {
@@ -439,7 +495,10 @@
     if (btn.dataset.confidence) return chooseConfidence(btn.dataset.confidence);
     if (btn.dataset.option) return chooseOption(btn.dataset.option);
     if (btn.dataset.action) return action(btn.dataset.action);
-    if (btn.dataset.studyWord && byId.has(btn.dataset.studyWord)) { state.basic = newSession([byId.get(btn.dataset.studyWord)]); state.reviewOnly = false; state.view = 'basic'; render(); return; }
+    if (btn.dataset.studyWord && byId.has(btn.dataset.studyWord)) {
+      if (bank.id === '1400') return open1400Table({ search: byId.get(btn.dataset.studyWord).word, list: 'all', specialOnly: false, page: 1 });
+      state.basic = newSession([byId.get(btn.dataset.studyWord)]); state.reviewOnly = false; state.view = 'basic'; render(); return;
+    }
     if (['TC', 'SE', 'RC'].includes(btn.dataset.examModule)) { state.examModule = btn.dataset.examModule; render(); return; }
     if (btn.dataset.count) {
       document.getElementById('question-count').value = btn.dataset.count;

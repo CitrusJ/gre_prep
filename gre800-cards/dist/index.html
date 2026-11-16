@@ -4,14 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#173f35" />
-    <meta name="description" content="把 800 个 GRE 核心词，一张一张变熟悉。随机词卡、自测与个人学习记录。" />
+    <meta name="description" content="GRE 800 词与急救 1400 词背诵、自认复习、八词配对和个人学习记录。" />
     <title>词间 · GRE 800</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="pairing.css" />
+    <link rel="stylesheet" href="table1400.css" />
     <script src="words.js" defer></script>
+    <script src="words1400.js" defer></script>
+    <script src="words1400-relations.js" defer></script>
+    <script src="word-banks.js" defer></script>
+    <script src="equivalence-pairs.js" defer></script>
+    <script src="pairing-core.js" defer></script>
+    <script src="pairing.js" defer></script>
     <script src="logic.js" defer></script>
     <script src="lexicon.js" defer></script>
     <script src="progress.js" defer></script>
     <script src="views.js" defer></script>
+    <script src="table1400.js" defer></script>
     <script src="app.js" defer></script>
   </head>
   <body>
@@ -22,8 +31,10 @@
         <span class="brand-copy"><strong>词间</strong><span>GRE 800</span></span>
       </a>
       <div class="sidebar-caption">每天一点，慢慢熟悉。</div>
+      <div class="bank-picker"><label for="word-bank">背诵词库</label><select id="word-bank" aria-label="切换背诵词库"><option value="800">GRE 800 词</option><option value="1400">急救 1400 词 · 2026</option></select></div>
       <div class="nav-caption">我的学习</div>
       <nav class="nav-list" aria-label="学习模式">
+        <button type="button" class="nav-item" data-nav="word-table" hidden><span class="nav-symbol" aria-hidden="true">▦</span><span>1400 考频词表</span><span class="nav-dot" aria-hidden="true"></span></button>
         <button type="button" class="nav-item" data-nav="self-check"><span class="nav-symbol" aria-hidden="true">✓</span><span>自认模式</span><span class="nav-dot" aria-hidden="true"></span></button>
         <button type="button" class="nav-item" data-nav="special-review"><span class="nav-symbol" aria-hidden="true">☆</span><span>特殊待复习</span><span class="nav-dot" aria-hidden="true"></span></button>
         <button type="button" class="nav-item active" data-nav="basic" aria-current="page">
@@ -40,21 +51,22 @@
         </button>
         <button type="button" class="nav-item" data-nav="recall"><span class="nav-symbol" aria-hidden="true">↔</span><span>反向回忆</span><span class="nav-dot" aria-hidden="true"></span></button>
         <button type="button" class="nav-item" data-nav="synonyms"><span class="nav-symbol" aria-hidden="true">≈</span><span>同义词训练</span><span class="nav-dot" aria-hidden="true"></span></button>
+        <button type="button" class="nav-item" data-nav="pairing"><span class="nav-symbol" aria-hidden="true">⇄</span><span>八词配对</span><span class="nav-dot" aria-hidden="true"></span></button>
         <button type="button" class="nav-item" data-nav="quality"><span class="nav-symbol" aria-hidden="true">◎</span><span>词库校核</span><span class="nav-dot" aria-hidden="true"></span></button>
         <button type="button" class="nav-item" data-nav="exam"><span class="nav-symbol" aria-hidden="true">▤</span><span>GRE 题型</span><span class="nav-dot" aria-hidden="true"></span></button>
       </nav>
       <div class="sidebar-bottom">
         <div class="sidebar-progress">
-          <div class="sidebar-progress-heading"><span>词库探索</span><span id="side-progress">0 / 800</span></div>
+          <div class="sidebar-progress-heading"><span id="side-progress-label">词库探索</span><span id="side-progress">0 / 800</span></div>
           <div class="sidebar-progress-track" aria-hidden="true"><span id="side-progress-bar" style="width:0%"></span></div>
-          <p>已掌握 <strong id="side-mastered">0</strong> 个单词</p>
+          <p><span id="side-mastered-label">已掌握</span> <strong id="side-mastered">0</strong> 个单词</p>
         </div>
         <div class="sidebar-note"><span class="sidebar-note-icon" aria-hidden="true">✳</span><p>A little every day.<br /><span>让积累，成为你的底气。</span></p></div>
         <footer class="sidebar-footer"><span class="status-dot" aria-hidden="true"></span><span id="storage-status">学习进度保存在此浏览器</span></footer>
       </div>
     </aside>
     <main id="app" class="app-main" tabindex="-1">
-      <header class="page-header"><div><p class="eyebrow">YOUR DAILY WORD PRACTICE</p><h1 class="page-title">让每个单词，都更熟悉一点。</h1><p class="page-description">正在准备你的 GRE 800 词卡…</p></div></header>
+      <header class="page-header"><div><p class="eyebrow">YOUR DAILY WORD PRACTICE</p><h1 class="page-title">让每个单词，都更熟悉一点。</h1><p class="page-description">正在准备你的 GRE 词卡…</p></div></header>
       <div class="empty-state" role="status"><span class="loading-dot" aria-hidden="true"></span><p>正在翻开词库</p></div>
       <noscript><p class="feedback neutral">请开启浏览器的 JavaScript，以使用词卡和测试功能。</p></noscript>
     </main>

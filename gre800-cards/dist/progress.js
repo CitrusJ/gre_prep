@@ -12,6 +12,7 @@
   const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
   const count = value => Number.isSafeInteger(value) && value >= 0 ? value : 0;
   const timestamp = value => typeof value === 'number' && Number.isFinite(value) && value >= 0 && value <= 8640000000000000;
+  const recognitionEntry = entry => object(entry) && ['known', 'unknown', 'unmarked'].includes(entry.status) && timestamp(entry.updatedAt);
   const clone = value => JSON.parse(JSON.stringify(value));
   const nowValue = now => timestamp(now) ? now : Date.now();
 
@@ -98,7 +99,7 @@
     const records = {};
     Object.entries(object(old.records) ? old.records : {}).forEach(([id, record]) => {
       // Preserve extension records rather than silently deleting existing data.
-      // Analytics/training only look at IDs in the supplied 800-word database.
+      // Analytics/training only look at IDs in the selected vocabulary database.
       if (!['__proto__', 'constructor', 'prototype'].includes(id)) records[id] = migrateRecord(record, now);
     });
     const ids = new Set(words.map(word => String(word.id)));
@@ -108,13 +109,34 @@
         specialList[id] = { active: entry.active, updatedAt: entry.updatedAt };
       }
     });
+    const selfCheck = validSelfSession(old.selfCheck, words) ? clone(old.selfCheck) : null;
+    const specialReview = validSelfSession(old.specialReview, words) ? clone(old.specialReview) : null;
+    const tableRecognition = {};
+    Object.entries(object(old.tableRecognition) ? old.tableRecognition : {}).forEach(([id, entry]) => {
+      if (ids.has(id) && !['__proto__', 'constructor', 'prototype'].includes(id) && recognitionEntry(entry)) {
+        tableRecognition[id] = { status: entry.status, updatedAt: entry.updatedAt };
+      }
+    });
+    // Recognition is an independent self-assessment, never a scored answer or
+    // a special-list action. Keep the old sessions intact when moving 1400 to
+    // the table. A cleared mark is explicit too, so it must beat legacy answers.
+    const explicitRecognition = new Set(Object.keys(tableRecognition));
+    [selfCheck, specialReview].filter(Boolean).forEach(session => {
+      session.answers.forEach(answer => {
+        const id = String(answer.id);
+        if (!id.startsWith('x1400-') || explicitRecognition.has(id)) return;
+        const updatedAt = timestamp(answer.updatedAt) ? answer.updatedAt : session.startedAt;
+        if (!tableRecognition[id] || updatedAt > tableRecognition[id].updatedAt) {
+          tableRecognition[id] = { status: answer.confidence, updatedAt };
+        }
+      });
+    });
     return {
       version: 2, records: {}, history: [], basic: null, test: null, training: null,
       view: 'basic', reviewOnly: false, ...old, version: 2, records,
       history: Array.isArray(old.history) ? old.history : [],
-      selfCheck: validSelfSession(old.selfCheck, words) ? clone(old.selfCheck) : null,
-      specialReview: validSelfSession(old.specialReview, words) ? clone(old.specialReview) : null,
-      specialList,
+      selfCheck, specialReview,
+      specialList, tableRecognition,
       settings: { examDate: '', ...(object(old.settings) ? old.settings : {}) },
       daily: object(old.daily) ? old.daily : {},
       dailyStartedAt: timestamp(old.dailyStartedAt) ? old.dailyStartedAt : now
@@ -262,6 +284,12 @@
     const wordsById = new Map(words.map(word => [String(word.id), word]));
     const validId = id => (typeof id === 'string' || Number.isInteger(id)) && ids.has(String(id));
     const validCount = (value, maximum = MAX_COUNT) => Number.isInteger(value) && value >= 0 && value <= maximum;
+    if (own(saved, 'tableRecognition')) {
+      if (!object(saved.tableRecognition) || Object.keys(saved.tableRecognition).length > words.length) fail('表格认识标记格式无效。');
+      Object.entries(saved.tableRecognition).forEach(([id, entry]) => {
+        if (!validId(id) || !recognitionEntry(entry)) fail('表格认识标记包含无效单词、状态或时间。');
+      });
+    }
     if (own(saved, 'specialList')) {
       if (!object(saved.specialList) || Object.keys(saved.specialList).length > words.length) fail('特殊待复习列表格式无效。');
       Object.entries(saved.specialList).forEach(([id, entry]) => {
@@ -274,7 +302,7 @@
     if (!object(saved.records)) fail('缺少单词学习记录。');
     if (Object.keys(saved.records).length > words.length) fail('学习记录数量超过当前词库。');
     Object.entries(saved.records).forEach(([id, r]) => {
-      if (!validId(id)) fail(`单词 ID ${id} 不在当前 800 词库内。`);
+      if (!validId(id)) fail(`单词 ID ${id} 不在当前词库内。`);
       if (!object(r) || !validCount(r.attempts) || r.attempts < 1 || !validCount(r.correct, r.attempts) || !['mastered', 'review'].includes(r.status) || !['known', 'unknown', 'unsure'].includes(r.confidence) || typeof r.lastCorrect !== 'boolean' || !timestamp(r.updatedAt)) fail(`单词 ${id} 的记录已损坏。`);
       if (r.confidence === 'unknown' && r.lastCorrect) fail(`单词 ${id} 的熟悉程度与答题结果矛盾。`);
       ['consecutiveCorrect', 'confirmedStreak', 'reviewCount', 'lapseCount'].forEach(key => {
@@ -374,6 +402,10 @@
     result.specialList = { ...b.specialList, ...a.specialList };
     Object.entries(b.specialList).forEach(([id, entry]) => {
       if (!a.specialList[id] || entry.updatedAt > a.specialList[id].updatedAt) result.specialList[id] = entry;
+    });
+    result.tableRecognition = { ...b.tableRecognition, ...a.tableRecognition };
+    Object.entries(b.tableRecognition).forEach(([id, entry]) => {
+      if (!a.tableRecognition[id] || entry.updatedAt > a.tableRecognition[id].updatedAt) result.tableRecognition[id] = entry;
     });
     // Preserve every existing local session, including a completed test. When a
     // slot is empty, restore the imported session so its unfinished work remains
